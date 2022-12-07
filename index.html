@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300" />
+    <link rel="stylesheet" href="style/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
+        charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
+
+
+
+</head>
+
+<body>
+
+    <section class="panel code" data-section-name="home">
+        <div class="inner">
+            <div class="vertical-center">
+                <h1>Итинерарий Карла IX Валуа</h1>
+            </div>
+        </div>
+    </section>
+    <section class="panel code" data-section-name="second">
+        <div class="inner">
+            <div class="vertical-center">
+                <p>Интерактивная карта основана на обширных материалах и реестрах писем, по которым возможно отследить
+                    перемещение королей и членов семьи из династии Валуа во второй половине XVI века. Проект
+                    сфокусирован на пространственном аспекте политической истории, важном для понимания функционирования
+                    монархий раннего Нового времени, с их не вполне интегрированными территориями. Поездки монархов по
+                    стране восходили к практике путешествий средневековых правителей. Передвижения монархов и их свиты
+                    по стране являлись, по сути, властью государя в действии, ее материализацией в отдельных частях их
+                    владений и в диалогических отношениях с разными группами их подданных</p>
+            </div>
+        </div>
+    </section>
+    <section class="panel code" data-section-name="third">
+        <div class="container">
+            <div class="inner">
+                <div class="mapcontainer">
+                    <div class="map">
+                        <span>Alternative content for the map</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-2.1.1.js"></script>
+
+    <script src="js/jquery.scrollify.js"></script>
+
+    <script src="js/main.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>(function (i, s, o, g, r, a, m) {
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script');</script>
+    <script src="js/jquery.mapael.js" charset="utf-8"></script>
+    <script src="js/maps/france_departments.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".mapcontainer").mapael({
+                map: {
+                    name: "france_departments"
+                    , zoom: {
+                        enabled: true,
+                        mousewheel: false
+                    }
+                }
+            });
+            $('.mapcontainer').on('mouseenter', function (event) {
+                $.scrollify.disable();
+            }).on('mouseleave', function () {
+                $.scrollify.enable();
+            });
+        });
+
+    </script>
+</body>
+
+</html>
