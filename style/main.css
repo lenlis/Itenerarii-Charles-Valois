@@ -103,7 +103,7 @@ h2 + p {
 	background:hsl(350,92%,59%);
 }
 .code {
-	background:black;
+	background-color: #222222;
 }
 
 
