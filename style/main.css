@@ -59,7 +59,7 @@ div.vertical-center span{
     font-size: 36px;
     line-height: 41px;
 }
-/* .scroll{
+.scroll{
 	position:absolute;
 	bottom: 5px;
 	margin-left: auto;
@@ -67,7 +67,7 @@ div.vertical-center span{
 	left: 0;
 	right: 0;
 	text-align: center;
-} */
+}
 
 p.scroll-items {
 	margin: 0;
