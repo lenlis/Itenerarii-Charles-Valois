@@ -133,20 +133,25 @@ header{
 	text-decoration: none;
 }
 
-.logo-items{
-	/* margin-top: 20px; */
-}
-
 .language{
 	display: flex;
 	position: absolute;
-	top: 30%;
+	top: 37%;
 	right: 5%;
+	gap: 10px;
 }
 .language li{
 	list-style-type: none;
 	font-size: 20px;
-	line-height: 22px;
+	line-height: 23px;
+}
+button{
+	display: flex;
+	background-color:rgba(255, 255, 255, 0.0);
+	border:0px;
+	color: #FFFFFF;
+	padding:5px;
+	gap: 5px;
 }
 
 
