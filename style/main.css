@@ -190,7 +190,7 @@ button{
 	position: absolute;
 	top: 0;
 	font-weight: bold;
-	left: 10px;
+	left: 20px;
 
 	-webkit-user-select: none;
 	-khtml-user-select : none;
@@ -201,17 +201,17 @@ button{
 
 /* Reset Zoom button first */
 .mapael .zoomReset {
-	top: 10px;
+	top: 85px;
 }
 
 /* Then Zoom In button */
 .mapael .zoomIn {
-	top: 30px;
+	top: 105px;
 }
 
 /* Then Zoom Out button */
 .mapael .zoomOut {
-	top: 50px;
+	top: 125px;
 }
 
 .mapael .mapTooltip {
