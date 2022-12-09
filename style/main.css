@@ -11,8 +11,8 @@ body {
 
 .vertical-center {
 	text-align:center;
-	width:100%;
-	position: absolute;
+	/* width:100%; */
+	/* position: absolute; */
 }
 
 .inner {
@@ -25,31 +25,37 @@ body {
 	justify-content: space-between;	
 }
 
+/* @media (max-width: 767){
+	
+h1 {
+	font-size: calc(100px + (20 + 20*0.7) * ((100vw - 320px) / 1000));
+}
+} */
+
 /* Первая страница */
 .leader{
 	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
 }
 
 .page-1 img.logo{
-	display: block;
-	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 25px;
-	margin-bottom: 88px;
+	margin-top: 10px;
 }
 
 h1 {
 	display: inline-block;
 	font-weight: 400;
 	font-size: 120px;
-	line-height: 136px;
+	/* font-size: calc(110px + 10 * (100vw / 1850)); */
+	/* line-height: 136px; Ни на что не влияют */
+	/* line-height: 1.134em; */
 	text-transform: uppercase;
 	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0;
-	margin-bottom: 88px;
+	margin: 0;
 	text-transform: uppercase;
 }
 
@@ -69,11 +75,15 @@ div.vertical-center span{
 	text-align: center;
 } */
 
+.scroll{
+	margin-bottom: 10px;
+}
+
 p.scroll-items {
 	margin: 0;
 	font-size: 20px;
 	line-height: 23px;	
-	
+	margin-bottom: 3px;
 }
 
 /* Вторая страница */
@@ -91,7 +101,8 @@ p.scroll-items {
 	margin: 0;
 	text-align: left;
 	font-size: 20px;
-	line-height: 23px;
+	/* line-height: 23px; */
+	line-height: 1.15em;
 }
 .description p.fr{
 	margin-bottom: 100px;
@@ -125,7 +136,8 @@ header{
 	margin-top: auto;
 	margin-bottom: auto; 
 	font-size: 16px;
-	line-height: 18px;
+	/* line-height: 18px; */
+	line-height: 1.125em;
 	list-style-type: none;
 }
 .navigation-list a{
@@ -143,7 +155,8 @@ header{
 .language li{
 	list-style-type: none;
 	font-size: 20px;
-	line-height: 23px;
+	/* line-height: 23px; */
+	line-height: 1.15em;
 }
 button{
 	display: flex;
