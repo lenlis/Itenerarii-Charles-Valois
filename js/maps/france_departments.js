@@ -184,8 +184,8 @@
 
 }));
 $(function () {
-    var mapW = 1920;
-    var mapH = 1020;
+    var mapW = 1921;
+    var mapH = 1021;
     $(".mapcontainer").mapael({
         map: {
             // Set the name of the map to display
@@ -203,18 +203,27 @@ $(function () {
                 $('.mapcontainer .map').unbind("resizeEnd");
 
                 $(window).on('resize', function () {
-                
                     var winW = $(window).width();
                     var winH = $(window).height();
                     var winRatio = winW / winH;
                     var mapRatio = mapW / mapH;
 
-                    if(winRatio > mapRatio){                    
-                      paper.setSize((mapW * winH) / mapH, winH);
-                      $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
-                		}else{
-                      paper.setSize(winW, (mapH * winW) / mapW);
-                      $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                    if(winW > 2560){                    
+                      paper.setSize(3840, 2160);
+                    //   $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                	}else if(winW > 1920){
+                    paper.setSize(2560, 1440);
+                    //  $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                    }else if(winW > 1600){
+                    paper.setSize(1920, 1080);
+                    }else if(winW > 1500){
+                    paper.setSize(1600, 900);
+                    }else if(winRatio > mapRatio){
+                    paper.setSize((mapW * winH) / mapH, winH);
+                    //$(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                    }else{
+                    paper.setSize(winW, (mapH * winW) / mapW);
+                    //$(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
                     }
                 }).trigger('resize');
             }
