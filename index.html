@@ -83,30 +83,5 @@
         
     <script src="js/jquery.mapael.js" charset="utf-8"></script>
     <script src="js/maps/france_departments.js" charset="utf-8"></script>
-    <script type="text/javascript">
-        $(function () {
-            $(".mapcontainer").mapael({
-                map: {
-                    name: "france_departments"
-                    , zoom: {
-                        enabled: true,
-                        mousewheel: false,
-                        init: {
-                            x: 960,
-                            y: 540,
-                            level: 0.5
-                        }
-                    }
-                }
-            });
-            // Запрещает скролить на карте
-            // $('.mapcontainer').on('mouseenter', function (event) { 
-            //     $.scrollify.disable();
-            // }).on('mouseleave', function () {
-            //     $.scrollify.enable();
-            // });
-        });
-
-    </script>
 </body>
 </html>
