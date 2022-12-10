@@ -200,16 +200,22 @@ $(function () {
                 }
             },
             afterInit: function ($self, paper, areas, plots, options) {
-
-                //paper.canvas.setAttribute('preserveAspectRatio', 'none');
                 $('.mapcontainer .map').unbind("resizeEnd");
 
                 $(window).on('resize', function () {
-
+                
                     var winW = $(window).width();
                     var winH = $(window).height();
-                    paper.setSize(winW, winH);
-                    paper.canvas.setAttribute('preserveAspectRatio', 'none');
+                    var winRatio = winW / winH;
+                    var mapRatio = mapW / mapH;
+
+                    if(winRatio > mapRatio){                    
+                      paper.setSize((mapW * winH) / mapH, winH);
+                      $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                		}else{
+                      paper.setSize(winW, (mapH * winW) / mapW);
+                      $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                    }
                 }).trigger('resize');
             }
         }

@@ -227,10 +227,11 @@ button{
 	display: none;
 	color: #fff;
 }
-.container {
-	/* max-width: 800px;
-	max-height: 800px; */
-	margin: auto;
+.mapcontainer {
+	/* max-width: 100vw;
+	max-height: 100vh; */
+	margin: 0;
+	text-align:center;
 }
 
 .mapael .map {
