@@ -100,7 +100,7 @@ p.scroll-items {
 .description p{
 	margin: 0;
 	text-align: left;
-	font-size: 20px;
+	font-size: calc(17px + 3 * (100vw / 1080));
 	/* line-height: 23px; */
 	line-height: 1.15em;
 }
