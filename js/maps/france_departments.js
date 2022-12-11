@@ -214,7 +214,7 @@ $(function () {
                 	}else if(winW > 2500 && winW < 2600 && winH > 1360){
                     paper.setSize(2560, 1440);
                     //  $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
-                    }else if(winW > 1800 && winW < 2000 && winH > 1000){
+                    }else if(winW > 1800 && winW < 2000 && winH > 900){
                     paper.setSize(1920, 1080);
                     }else if(winW > 1500 && winW < 1700 && winH > 780){
                     paper.setSize(1600, 900);
