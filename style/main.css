@@ -21,7 +21,6 @@ body {
 	display: flex;
   	flex-direction: column;
   	align-items: center;
-  	/* justify-content: center; */
 	justify-content: space-between;	
 }
 
@@ -38,11 +37,10 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;	
+	align-items: center;
 }
 
 .page-1 img.logo{
-	margin-left: auto;
-	margin-right: auto;
 	margin-top: 10px;
 }
 
@@ -76,14 +74,34 @@ div.vertical-center span{
 } */
 
 .scroll{
-	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+	align-items: center;
+
 }
 
 p.scroll-items {
 	margin: 0;
 	font-size: 20px;
 	line-height: 23px;	
-	margin-bottom: 3px;
+	
+}
+
+.scroll .circle{
+	width: 10px; 
+	height: 10px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	position: relative;
+	top: 10px;
+}
+.scroll .line{
+	position: relative;
+
+	width: 2px; 
+	height: calc((100vh - 650px) / 4);
+	background: #FFFFFF;
 }
 
 /* Вторая страница */
