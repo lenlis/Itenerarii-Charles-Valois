@@ -208,10 +208,10 @@ $(function () {
                     var winRatio = winW / winH;
                     var mapRatio = mapW / mapH;
 
-                    if(winW > 3750 && winW < 3900 && winH > 2100){                    
+                    if(winW > 3750 && winW < 3900 && winH > 2000){                    
                       paper.setSize(3840, 2160);
                     //   $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
-                	}else if(winW > 2500 && winW < 2600 && winH > 1360){
+                	}else if(winW > 2500 && winW < 2600 && winH > 1340){
                     paper.setSize(2560, 1440);
                     //  $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
                     }else if(winW > 1800 && winW < 2000 && winH > 900){
