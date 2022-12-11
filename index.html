@@ -60,7 +60,7 @@
                             <li class="navigation-list-item"> <a href="#"> история</a></li>
                             <li class="navigation-list-item logo-items"><a href="#"><img class="logo"
                                         src="image\Logo.svg" alt="Логотип" width="60" height="60"></a></li>
-                            <li class="navigation-list-item"><a href="#">карта</a></li>
+                            <li class="navigation-list-item"><a href="#" id="test">карта</a></li>
                             <li class="navigation-list-item"><a href="#">династия</a></li>
                         </ul>
                     </nav>
@@ -94,7 +94,7 @@
             }, i[r].l = 1 * new Date(); a = s.createElement(o),
                 m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
         })(window, document, 'script');</script>
-
+     <script>document.getElementById(test).innerHTML = (""+$(window).width()+" "+ $(window).height())</script>
     <script src="js/jquery.mapael.js" charset="utf-8"></script>
     <script src="js/maps/france_departments.js" charset="utf-8"></script>
 </body>
