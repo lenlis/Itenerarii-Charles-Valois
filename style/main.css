@@ -121,9 +121,42 @@ p.scroll-items {
 	font-size: calc(17px + 3 * (100vw / 1080));
 	/* line-height: 23px; */
 	line-height: 1.15em;
+	padding: 10px;
 }
 .description p.fr{
 	margin-bottom: 100px;
+}
+
+.up .circle{
+	width: 10px; 
+	height: 10px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	position: relative;
+}
+.up .line{
+	position: relative;
+	left: 4px;
+	width: 2px; 
+	height: calc((100vh - 580px) / 2);
+	background: #FFFFFF;
+}
+
+.down .circle{
+	width: 10px; 
+	height: 10px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	position: relative;
+	top: 10px;
+}
+.down .line{
+	position: relative;
+	left: 4px;
+	width: 2px; 
+	height: calc((100vh - 580px) / 2);
+	background: #FFFFFF;
+	margin-bottom: 10px;
 }
 
 /* Шапка сайта */
