@@ -401,6 +401,61 @@ $(function () {
                 },
                 tooltip: { content: "Замок Жьен" },
                 attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Bordeaux': {
+                x: 840,
+                y: 680,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Бордо" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Mont-de-Marsan': {
+                x: 848,
+                y: 770,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Мон-Де-Марсан" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Bayonne': {
+                x: 783,
+                y: 806,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Байонна" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Saint-Jean-de-Luz': {
+                x: 773,
+                y: 815,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Сен-Жан-де-Люз" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Saint-Mor-de-Fosse': {
+                x: 1030,
+                y: 326,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Сен-Мор-де-Фоссе" },
+                attrsHover: { fill: "#3a7bfc" }
             }
         }
     });
