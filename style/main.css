@@ -233,7 +233,7 @@ button{
 .move-arrows{
 	width: 100%;
 	position: absolute;
-	top: 295vh;
+	top: 292vh;
 }
 .move-arrows-list{
 	display: flex;
@@ -247,6 +247,9 @@ button{
 }
 .right, .left{
 	cursor: pointer;
+}
+.move-arrows .right{
+	transform: rotate(180deg);
 }
 /* Карта */
 
