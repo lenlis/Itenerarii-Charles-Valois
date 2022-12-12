@@ -234,6 +234,7 @@ button{
 	cursor: pointer;
 	position: absolute;
 	top: 292vh;
+	padding: 5px 15px;
 }
 .move-arrows .right{
 	left: 90vw;
