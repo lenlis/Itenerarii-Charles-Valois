@@ -123,41 +123,39 @@ p.scroll-items {
 	line-height: 1.15em;
 	padding: 10px;
 }
-.description p.fr{
-	margin-bottom: 100px;
+
+.description div.center{
+	display: grid;
+	justify-content: center;
+	margin: 10px;
 }
 
-.up .circle{
+div.center .line{
+	height: calc((100vh - 600px) / 6);
+}
+
+.page-2 .circle{
 	width: 10px; 
 	height: 10px;
 	background: #FFFFFF;
 	border-radius: 50%;
 	position: relative;
 }
-.up .line{
+.page-2 .line{
 	position: relative;
 	left: 4px;
 	width: 2px; 
-	height: calc((100vh - 580px) / 2);
+	height: calc((100vh - (490px + (100vh - 600px) / 6)) / 5 * 2);
 	background: #FFFFFF;
 }
 
 .down .circle{
-	width: 10px; 
-	height: 10px;
-	background: #FFFFFF;
-	border-radius: 50%;
-	position: relative;
 	top: 10px;
 }
 .down .line{
-	position: relative;
-	left: 4px;
-	width: 2px; 
-	height: calc((100vh - 580px) / 2);
-	background: #FFFFFF;
 	margin-bottom: 10px;
 }
+
 
 /* Шапка сайта */
 
