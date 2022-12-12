@@ -217,10 +217,10 @@ button{
 }
 
 /* Подвал сайта */
-
+	
 .main-footer{
-	position:relative;
-	bottom: 60px;
+	position:absolute;
+	top: 300vh;
 	z-index: 1001;
 }
 .main-footer p{
@@ -232,8 +232,8 @@ button{
 /* Стрелки навигации */
 .move-arrows{
 	width: 100%;
-	position: relative;
-	bottom: 250px;
+	position: absolute;
+	top: 295vh;
 }
 .move-arrows-list{
 	display: flex;
