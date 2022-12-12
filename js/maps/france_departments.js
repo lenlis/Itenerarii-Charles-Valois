@@ -364,7 +364,7 @@ $(function () {
                     stroke: "#ffffff",
                     "stroke-width": 1
                 },
-                tooltip: { content: "Сен-Жермен-ан-Ле" },
+                tooltip: { content: "Лувр" },
                 attrsHover: { fill: "#3a7bfc" }
             }
         }
