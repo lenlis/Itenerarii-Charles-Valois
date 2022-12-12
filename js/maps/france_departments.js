@@ -390,6 +390,17 @@ $(function () {
                 },
                 tooltip: { content: "Божанси" },
                 attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Gien': {
+                x: 1041,
+                y: 424,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Замок Жьен" },
+                attrsHover: { fill: "#3a7bfc" }
             }
         }
     });
