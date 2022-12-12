@@ -229,6 +229,22 @@ button{
 	letter-spacing: 0.25em;
 }
 
+/* Стрелки навигации */
+.move-arrows{
+	width: 100%;
+	position: relative;
+	bottom: 250px;
+}
+.move-arrows-list{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 100px;
+	text-decoration: none;
+	z-index: 1011;
+}
+.move-arrows-list-items{
+	list-style-type: none;
+}
 /* Карта */
 
 .mapael .map {
@@ -252,7 +268,6 @@ button{
 	top: 0;
 	font-weight: bold;
 	left: 20px;
-
 	-webkit-user-select: none;
 	-khtml-user-select : none;
 	-moz-user-select: none;
