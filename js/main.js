@@ -27,31 +27,30 @@ const dictionary = {
 $('.right').on('click', function () {
   if(current_plot < 3){
     current_plot +=1;
-    }
-  previous_plot = current_plot;
-  var updatedOptions = {'plots': {}};
-  updatedOptions.plots[dictionary[current_plot]] = {
-    attrs: {
-        fill: "#3a7bfc"
-    }
-  };
-  if(current_plot > 1){
-  updatedOptions.plots[dictionary[current_plot - 1]] = {
-    attrs: {
-          fill: "#343434"
+    var updatedOptions = {'plots': {}};
+    updatedOptions.plots[dictionary[current_plot]] = {
+      attrs: {
+          fill: "#3a7bfc"
       }
-  };
+    };
+    if(current_plot > 1){
+    updatedOptions.plots[dictionary[previous_plot]] = {
+      attrs: {
+            fill: "#343434"
+        }
+    };
+    }
+    $(".mapcontainer").trigger('zoom', {level: 10, plot:dictionary[current_plot]});
+    $(".mapcontainer").trigger('update', [{
+      mapOptions: updatedOptions
+    }]);
+    previous_plot = current_plot;
   }
-  $(".mapcontainer").trigger('zoom', {level: 10, plot:dictionary[current_plot]});
-  $(".mapcontainer").trigger('update', [{
-    mapOptions: updatedOptions
-  }]);
 });
 $('.left').on('click', function () {
   if(current_plot > 1){
     current_plot -=1;
-    }
-  previous_plot = current_plot;
+
   var updatedOptions = {'plots': {}};
   updatedOptions.plots[dictionary[current_plot]] = {
     attrs: {
@@ -59,14 +58,17 @@ $('.left').on('click', function () {
     }
   };
   if(current_plot < 3){
-  updatedOptions.plots[dictionary[current_plot + 1]] = {
-    attrs: {
-          fill: "#343434"
-      }
-  };
+    updatedOptions.plots[dictionary[previous_plot]] = {
+      attrs: {
+            fill: "#343434"
+        }
+    };
   }
   $(".mapcontainer").trigger('zoom', {level: 10, plot:dictionary[current_plot]});
   $(".mapcontainer").trigger('update', [{
     mapOptions: updatedOptions
+    
   }]);
+  previous_plot = current_plot;
+}
 });
