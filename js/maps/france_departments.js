@@ -12,6 +12,7 @@
  * @deprecated : this map will be definitely moved to 'mapael-maps' repository starting from the next major release (3.0.0).
  * You can use instead https://github.com/neveldo/mapael-maps/blob/master/france/france_departments.js
  */
+
 (function (factory) {
     if (typeof exports === 'object') {
         // CommonJS
@@ -183,7 +184,10 @@
     return Mapael;
 
 }));
+
 $(function () {
+    var mapaelPlotsSet;
+    var zoomTO;
     var mapW = 1921;
     var mapH = 1021;
     $(".mapcontainer").mapael({
@@ -198,7 +202,6 @@ $(function () {
                     y: 540,
                     level: 0.5
                 }
-            
             },
             defaultArea: {
                 attrsHover: {
@@ -207,6 +210,10 @@ $(function () {
             },
             afterInit: function ($self, paper, areas, plots, options) {
                 $('.mapcontainer .map').unbind("resizeEnd");
+                mapaelPlotsSet = paper.set();
+                $.each(plots, function (id, plot) {
+                    mapaelPlotsSet.push(plot.mapElem);
+                });
 
                 $(window).on('resize', function () {
                     var winW = $(window).width();
@@ -214,22 +221,22 @@ $(function () {
                     var winRatio = winW / winH;
                     var mapRatio = mapW / mapH;
 
-                    if(winW > 3750 && winW < 3900 && winH > 2000){                    
-                      paper.setSize(3840, 2160);
-                    //   $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
-                	}else if(winW > 2500 && winW < 2600 && winH > 1340){
-                    paper.setSize(2560, 1440);
-                    //  $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
-                    }else if(winW > 1800 && winW < 2000 && winH > 900){
-                    paper.setSize(1920, 1080);
-                    }else if(winW > 1500 && winW < 1700 && winH > 780){
-                    paper.setSize(1600, 900);
-                    }else if(winRatio > mapRatio){
-                    paper.setSize((mapW * winH) / mapH, winH);
-                    //$(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
-                    }else{
-                    paper.setSize(winW, (mapH * winW) / mapW);
-                    //$(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                    if (winW > 3750 && winW < 3900 && winH > 2000) {
+                        paper.setSize(3840, 2160);
+                        //   $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                    } else if (winW > 2500 && winW < 2600 && winH > 1340) {
+                        paper.setSize(2560, 1440);
+                        //  $(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                    } else if (winW > 1800 && winW < 2000 && winH > 900) {
+                        paper.setSize(1920, 1080);
+                    } else if (winW > 1500 && winW < 1700 && winH > 780) {
+                        paper.setSize(1600, 900);
+                    } else if (winRatio > mapRatio) {
+                        paper.setSize((mapW * winH) / mapH, winH);
+                        //$(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
+                    } else {
+                        paper.setSize(winW, (mapH * winW) / mapW);
+                        //$(".mapcontainer").trigger("zoom", {latitude : lat, longitude: long});
                     }
                 }).trigger('resize');
             }
@@ -325,6 +332,62 @@ $(function () {
                     fill: "#ffffff"
                 }
             }
+        },
+        plots: {
+            'Fontenblo': {
+                x: 1045,
+                y: 360,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Фонтенбло" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Saint-Germain': {
+                x: 1005,
+                y: 314,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Сен-Жермен-ан-Ле" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Louvre': {
+                x: 1022,
+                y: 320,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Сен-Жермен-ан-Ле" },
+                attrsHover: { fill: "#3a7bfc" }
+            }
         }
+    });
+
+    $(".mapcontainer").on("zoom.mapael", function () {
+        var animDuration = $.mapael.prototype.defaultOptions.map.zoom.animDuration;
+        clearTimeout(zoomTO);
+        zoomTO = setTimeout(function() {
+          // Compute the actual zoom value, base on step value
+          // Note: if you override this value in your option, you need to update this code here as well
+          var zoomLevelSteps = 1 + $(".mapcontainer").data("mapael").zoomData.zoomLevel * $.mapael.prototype.defaultOptions.map.zoom.step;
+          // Scaling: inverse fn of zoom value since we need to reduce size when increasing zoom
+          var scaling = 1 / zoomLevelSteps;
+          console.log(zoomLevelSteps, scaling, mapaelPlotsSet.length);
+          // Apply transfrom on the set defined earlier
+          if (animDuration > 0) {
+            mapaelPlotsSet.animate({
+              transform: "s" + scaling
+            }, animDuration);
+          } else {
+            mapaelPlotsSet.transform("s" + scaling);
+          }
+        }, animDuration / 2);
     });
 });

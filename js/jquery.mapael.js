@@ -623,7 +623,7 @@
             // Update the zoom level of the map on mousewheel
             if (self.options.map.zoom.mousewheel) {
                 self.$map.on("mousewheel." + pluginName, function (e) {
-                    var zoomLevel = (e.deltaY > 0) ? 1 : -1;
+                    var zoomLevel = (e.originalEvent.wheelDelta > 0) ? 1 : -1;
                     var coord = self.mapPagePositionToXY(e.pageX, e.pageY);
 
                     self.$container.trigger("zoom", {
