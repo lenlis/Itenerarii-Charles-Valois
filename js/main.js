@@ -1,3 +1,4 @@
+//скролл
 $(function () {
   $.scrollify({
     section: ".panel",
@@ -9,7 +10,7 @@ $(function () {
     }
   });
 });
-
+//Блокировка скролла по карте
 $('.mapcontainer').on('mouseenter', function (event) {
     $.scrollify.disable();
 }).on('mouseleave', function () {

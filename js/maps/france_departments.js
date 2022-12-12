@@ -197,6 +197,8 @@ $(function () {
             zoom: {
                 enabled: true,
                 mousewheel: true,
+                maxLevel:20,
+                step:0.25,
                 init: {
                     x: 960,
                     y: 540,
@@ -365,6 +367,28 @@ $(function () {
                     "stroke-width": 1
                 },
                 tooltip: { content: "Лувр" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Bourges': {
+                x: 1023,
+                y: 480,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Бурж" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Beaugency': {
+                x: 982,
+                y: 416,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Божанси" },
                 attrsHover: { fill: "#3a7bfc" }
             }
         }
