@@ -196,7 +196,7 @@ $(function () {
             name: "france_departments",
             zoom: {
                 enabled: true,
-                mousewheel: false,
+                mousewheel: true,
                 init: {
                     x: 960,
                     y: 540,
@@ -244,92 +244,92 @@ $(function () {
         areas: {
             "Italy": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Spain": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "GreatBritain": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Niderland": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Belgium": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Germany": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Switzerland": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Irish": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Portugal": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Austria": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Poland": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Czech": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Hungary": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Bosnia": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Luxemburg": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Liechtenstein": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Slovenia": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             },
             "Croatia": {
                 attrsHover: {
-                    fill: "#ffffff"
+                    fill: "#343434"
                 }
             }
         },
