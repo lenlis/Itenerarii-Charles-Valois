@@ -18,15 +18,16 @@ $('.mapcontainer').on('mouseenter', function () {
 });
 //Перемещение
 var previous_plot;
-var current_plot = 1;
-var falg;
+var current_plot = 0;
 const dictionary = {
   1:"Fontenblo",
   2:"Louvre",
   3:"Bourges"
 }
 $('.right').on('click', function () {
-  falg = true;
+  if(current_plot < 3){
+    current_plot +=1;
+    }
   previous_plot = current_plot;
   var updatedOptions = {'plots': {}};
   updatedOptions.plots[dictionary[current_plot]] = {
@@ -45,12 +46,11 @@ $('.right').on('click', function () {
   $(".mapcontainer").trigger('update', [{
     mapOptions: updatedOptions
   }]);
-  if(current_plot < 3){
-    current_plot +=1;
-    }
 });
 $('.left').on('click', function () {
-  falg = true;
+  if(current_plot > 1){
+    current_plot -=1;
+    }
   previous_plot = current_plot;
   var updatedOptions = {'plots': {}};
   updatedOptions.plots[dictionary[current_plot]] = {
@@ -69,7 +69,4 @@ $('.left').on('click', function () {
   $(".mapcontainer").trigger('update', [{
     mapOptions: updatedOptions
   }]);
-  if(current_plot > 1){
-    current_plot -=1;
-    }
 });
