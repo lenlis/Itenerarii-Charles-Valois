@@ -25,7 +25,7 @@ const dictionary = {
   2:"Louvre",
   3:"Bourges"
 }
-$('#test').on('click', function () {
+$('.right').on('click', function () {
   falg = true;
   previous_plot = current_plot;
   var updatedOptions = {'plots': {}};
@@ -47,5 +47,29 @@ $('#test').on('click', function () {
   }]);
   if(current_plot < 3){
     current_plot +=1;
+    }
+});
+$('.left').on('click', function () {
+  falg = true;
+  previous_plot = current_plot;
+  var updatedOptions = {'plots': {}};
+  updatedOptions.plots[dictionary[current_plot]] = {
+    attrs: {
+        fill: "#3a7bfc"
+    }
+  };
+  if(current_plot < 3){
+  updatedOptions.plots[dictionary[current_plot + 1]] = {
+    attrs: {
+          fill: "#343434"
+      }
+  };
+  }
+  $(".mapcontainer").trigger('zoom', {level: 10, plot:dictionary[current_plot]});
+  $(".mapcontainer").trigger('update', [{
+    mapOptions: updatedOptions
+  }]);
+  if(current_plot > 1){
+    current_plot -=1;
     }
 });
