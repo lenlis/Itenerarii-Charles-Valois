@@ -230,27 +230,19 @@ button{
 }
 
 /* Стрелки навигации */
-.move-arrows{
-	width: 100%;
+.move-arrows .right,.move-arrows .left{
+	cursor: pointer;
 	position: absolute;
 	top: 292vh;
 }
-.move-arrows-list{
-	display: flex;
-	justify-content: space-between;
-	padding: 0 100px;
-	text-decoration: none;
-	z-index: 1011;
-}
-.move-arrows-list-items{
-	list-style-type: none;
-}
-.right, .left{
-	cursor: pointer;
-}
 .move-arrows .right{
+	left: 90vw;
 	transform: rotate(180deg);
 }
+.move-arrows .left{
+	left: 10vw;
+}
+
 /* Карта */
 
 .mapael .map {
