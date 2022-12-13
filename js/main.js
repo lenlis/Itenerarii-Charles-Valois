@@ -22,19 +22,27 @@ var current_plot = 0;
 const dictionary = {
   1:"Fontenblo",
   2:"Louvre",
-  3:"Bourges"
+  3:"Bourges",
+  4:'Beaugency',
+  5:'Gien',
+  6:'Bordeaux',
+  7:'Mont-de-Marsan',
+  8:'Bayonne',
+  9:'Saint-Jean-de-Luz'
 }
 $('.right').on('click', function () {
-  if(current_plot < 3){
+  if(current_plot < 9){
     current_plot +=1;
     var updatedOptions = {'plots': {}};
     updatedOptions.plots[dictionary[current_plot]] = {
+      size: 25,
       attrs: {
           fill: "#3a7bfc"
       }
     };
     if(current_plot > 1){
     updatedOptions.plots[dictionary[previous_plot]] = {
+      size: 15,
       attrs: {
             fill: "#343434"
         }
@@ -53,12 +61,14 @@ $('.left').on('click', function () {
 
   var updatedOptions = {'plots': {}};
   updatedOptions.plots[dictionary[current_plot]] = {
+    size: 25,
     attrs: {
         fill: "#3a7bfc"
     }
   };
-  if(current_plot < 3){
+  if(current_plot < 9){
     updatedOptions.plots[dictionary[previous_plot]] = {
+      size: 15,
       attrs: {
             fill: "#343434"
         }
