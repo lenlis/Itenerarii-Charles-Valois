@@ -344,7 +344,7 @@ $(function () {
                     stroke: "#ffffff",
                     "stroke-width": 1
                 },
-                tooltip: { content: "Фонтенбло" },
+                tooltip: { content: "Замок Фонтенбло" },
                 attrsHover: { fill: "#3a7bfc" }
             }, 
             'Saint-Germain': {
@@ -355,7 +355,7 @@ $(function () {
                     stroke: "#ffffff",
                     "stroke-width": 1
                 },
-                tooltip: { content: "Сен-Жермен-ан-Ле" },
+                tooltip: { content: "Замок Сен-Жермен-ан-Ле" },
                 attrsHover: { fill: "#3a7bfc" }
             }, 
             'Louvre': {
@@ -455,6 +455,248 @@ $(function () {
                     "stroke-width": 1
                 },
                 tooltip: { content: "Сен-Мор-де-Фоссе" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Chateaudun': {
+                x: 957,
+                y: 391,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Палаточный лагерь близ Шатодена" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Rouen': {
+                x: 943,
+                y: 260,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Палаточный лагерь близ Руана" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Vincennes': {
+                x: 1028,
+                y: 319,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Венсеннский замок" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Orlean': {
+                x: 994,
+                y: 401,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Палаточный лагерь близ Орлеана" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Trua': {
+                x: 1122,
+                y: 363,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Труа" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Shenonso': {
+                x: 940,
+                y: 456,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Замок Шенонсо" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Mant': {
+                x: 1186,
+                y: 641,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Мант" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Havre': {
+                x: 885,
+                y: 257,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Палаточный лагерь близ Гавра" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Gaillon': {
+                x: 958,
+                y: 292,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Замок Гайон" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Meulan': {
+                x: 1235,
+                y: 642,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Замок Мелан" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Lyon': {
+                x: 1178,
+                y: 598,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Лион" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Roussillon': {
+                x: 1203,
+                y: 763,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Руссильон" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Valence': {
+                x: 1181,
+                y: 678,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Валанс" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Avignon': {
+                x: 1179,
+                y: 759,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Авиньон" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Marseilles': {
+                x: 1215,
+                y: 819,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Марсель" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Arles': {
+                x: 1168,
+                y: 785,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Арль" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Tarascon': {
+                x: 1167,
+                y: 776,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Тараскон" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Montpellier': {
+                x: 1114,
+                y: 791,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Монпелье" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Carcasson': {
+                x: 1019,
+                y: 827,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Каркассон" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Toulouse': {
+                x: 963,
+                y: 792,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Тулуза" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Villers-Cottere': {
+                x: 1067,
+                y: 277,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Вилле-Коттре" },
+                attrsHover: { fill: "#3a7bfc" }
+            }, 
+            'Chiry-Ourscamp': {
+                x: 1053,
+                y: 251,
+                attrs: {
+                    fill: "#343434",
+                    stroke: "#ffffff",
+                    "stroke-width": 1
+                },
+                tooltip: { content: "Шири-Урскан" },
                 attrsHover: { fill: "#3a7bfc" }
             }
         }
