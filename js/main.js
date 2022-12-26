@@ -18,14 +18,14 @@ $('.mapcontainer').on('mouseenter', function () {
 });
 //Перемещение
 var lines = [];
-$(document).ready(function() {
-  $.ajax({
-      type: "GET",
-      url: "source/iterrarij.txt",
-      dataType: "text",
-      success: function(data) {processData(data);}
-   });
-});
+
+$.ajax({
+    type: "GET",
+    url: "source/iterrarij.txt",
+    dataType: "text",
+    success: function(data) {processData(data);}
+  });
+
 
 function processData(allText) {
   var allTextLines = allText.split(/\r\n|\n/);
