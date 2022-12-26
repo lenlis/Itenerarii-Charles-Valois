@@ -227,7 +227,7 @@ button{
 	left: 75vw;
 	width: 350px;
 	z-index: 1010;
-	height: 150px;
+	height: 200px;
 	background-image: url("../image/BGForEvent.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -269,6 +269,58 @@ button{
 	border: 1px solid #777777;
 }
 
+/* PopUp */
+
+.popup{
+	display: none;
+	position:absolute;
+    width:80%;
+    height:80%;
+	top:5vh;
+	left: 10vw;
+	z-index: 1010;
+
+    background-color: rgba(255, 255, 255, 0.90);
+	border-radius:15px;
+    box-shadow: 0px 0px 100px #000;
+	color: #000;
+}
+
+.button-exit{
+	display: block;
+	color: #111111;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: 10px;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 36px;
+	cursor: pointer;
+}
+
+.popup .flex{	
+	display: flex;
+}
+
+.popup-right, .popup-left{
+	width:50%;
+}
+
+.popup h3{
+	padding-top: 10px;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 62px;	
+	text-align: center;
+}
+
+.popup-right p{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 45px;
+	text-align: center;
+}
 
 /* Подвал сайта */
 	
