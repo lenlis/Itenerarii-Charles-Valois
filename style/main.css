@@ -227,11 +227,11 @@ button{
 	left: 75vw;
 	width: 350px;
 	z-index: 1010;
-	height: 150px;
+	height: 200px;
 	background-image: url("../image/BGForEvent.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain
+    background-size: cover;
 	
 }
 .button-event{
