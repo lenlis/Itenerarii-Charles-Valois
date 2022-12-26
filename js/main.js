@@ -46,7 +46,7 @@ function processData(allText) {
 var previous_plot;
 var current_plot = 0;
 const dictionary = {
-  1:"Fontenblo",
+  'Замок Фонтенбло':"Fontenblo",
   2:"Louvre",
   3:"Bourges",
   4:'Beaugency',
