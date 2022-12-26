@@ -216,6 +216,53 @@ button{
 	gap: 5px;
 }
 
+/* Событие */
+.container{
+	position: relative;
+}
+.event{
+	display: block;
+	position: absolute;
+	top: 12vh;
+	left: 75vw;
+	width: 350px;
+	z-index: 1010;
+	height: 150px;
+	background-color:rgba(255, 255, 255, 1.00)
+}
+.button-event{
+	width: 350px;
+	height: 150px;
+ 	display: grid;
+	margin: 0 auto;
+	color: #000000;
+	justify-items: center;
+}
+.event h2{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+}
+.event p{
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 25px;
+	padding: 0;
+	margin: 0;
+}
+
+.event .square{
+	width: 70px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	border: 1px solid #777777;
+}
+
+
 /* Подвал сайта */
 	
 .main-footer{
@@ -233,7 +280,8 @@ button{
 .move-arrows .right,.move-arrows .left{
 	cursor: pointer;
 	position: absolute;
-	top: 292vh;
+	/* top: 292vh; */ 
+	bottom: 20vh;
 	padding: 5px 15px;
 }
 .move-arrows .right{
