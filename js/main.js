@@ -1,4 +1,4 @@
-//скролл
+//скролл.
 $(function () {
   $.scrollify({
     section: ".panel",
