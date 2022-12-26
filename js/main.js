@@ -21,7 +21,7 @@ var lines = [];
 $(document).ready(function() {
   $.ajax({
       type: "GET",
-      url: "source/iterrarij.csv",
+      url: "source/iterrarij.txt",
       dataType: "text",
       success: function(data) {processData(data);}
    });
