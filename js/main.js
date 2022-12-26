@@ -23,7 +23,7 @@ const lines = [{ 'Имя монарха': 'Карл IX', 'Дата пребыв�
 var openFlag = false;
 
 //Перемещение
-var previous_plot;
+var previous_plot = lines[0]['Место пребывания'];
 var current_plot = -1;
 const dictionary = {
   'Замок Фонтенбло': "Fontenblo",
@@ -79,7 +79,7 @@ const dictionary = {
 $('.right').on('click', function () {
   if(!openFlag) {
     openFlag = true;
-    document.getElementsByClassName("event").style.display = 'block';
+    document.getElementsById('event').style = 'display: block';
   }
   if (current_plot < 48) {
     current_plot +=1;
@@ -90,7 +90,7 @@ $('.right').on('click', function () {
         fill: "#3a7bfc"
       }
     };
-    if (current_plot > 1) {
+    if (current_plot > 1 && previous_plot != lines[current_plot]['Место пребывания']) {
       updatedOptions.plots[dictionary[previous_plot]] = {
         size: 15,
         attrs: {
@@ -106,9 +106,7 @@ $('.right').on('click', function () {
     console.log(lines[current_plot]['Дата пребывания']);
     console.log(lines[current_plot]['Место пребывания']);
     console.log(lines[current_plot]['Источник']);
-    if (previous_plot != current_plot){
-        previous_plot = current_plot;
-      }
+    previous_plot = lines[current_plot]['Место пребывания'];
   }
 });
 $('.left').on('click', function () {
@@ -121,7 +119,7 @@ $('.left').on('click', function () {
         fill: "#3a7bfc"
       }
     };
-    if (current_plot < 48) {
+    if (current_plot < 48 && previous_plot != lines[current_plot]['Место пребывания']) {
       updatedOptions.plots[dictionary[previous_plot]] = {
         size: 15,
         attrs: {
@@ -138,8 +136,8 @@ $('.left').on('click', function () {
     console.log(lines[current_plot]['Дата пребывания']);
     console.log(lines[current_plot]['Место пребывания']);
     console.log(lines[current_plot]['Источник']);
-    if (previous_plot != current_plot){
-      previous_plot = current_plot;
+    if (previous_plot != lines[current_plot]['Место пребывания']){
+      previous_plot = lines[current_plot]['Место пребывания'];
     }
   }
 });
