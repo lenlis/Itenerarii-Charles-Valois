@@ -41,6 +41,7 @@ function processData(allText) {
           lines.push(tarr);
       }
   }
+  console.log(lines[0]['Место пребывания'])
   // alert(lines);
 }
 var previous_plot;
