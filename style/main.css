@@ -231,7 +231,7 @@ button{
 	background-image: url("../image/BGForEvent.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain
+    background-size: cover;
 	
 }
 .button-event{

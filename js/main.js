@@ -79,7 +79,7 @@ const dictionary = {
 $('.right').on('click', function () {
   if(!openFlag) {
     openFlag = true;
-    document.getElementsById('event').style = 'display: block';
+    document.getElementById('event').style = "display: block";
   }
   if (current_plot < 48) {
     current_plot +=1;
@@ -102,6 +102,7 @@ $('.right').on('click', function () {
     $(".mapcontainer").trigger('update', [{
       mapOptions: updatedOptions
     }]);
+    document.getElementById('event_name').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(';')[0];
     console.log(lines[current_plot]['Имя монарха']);
     console.log(lines[current_plot]['Дата пребывания']);
     console.log(lines[current_plot]['Место пребывания']);
@@ -132,6 +133,7 @@ $('.left').on('click', function () {
       mapOptions: updatedOptions
 
     }]);
+    document.getElementById('event_name').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(';')[0];
     console.log(lines[current_plot]['Имя монарха']);
     console.log(lines[current_plot]['Дата пребывания']);
     console.log(lines[current_plot]['Место пребывания']);
