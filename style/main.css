@@ -221,22 +221,28 @@ button{
 	position: relative;
 }
 .event{
-	display: block;
+	display: none;
 	position: absolute;
 	top: 12vh;
 	left: 75vw;
 	width: 350px;
 	z-index: 1010;
 	height: 150px;
-	background-color:rgba(255, 255, 255, 1.00)
+	background-image: url("../image/BGForEvent.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+	
 }
 .button-event{
+	cursor: pointer;
 	width: 350px;
 	height: 150px;
  	display: grid;
 	margin: 0 auto;
 	color: #000000;
 	justify-items: center;
+	
 }
 .event h2{
 	font-weight: 400;
@@ -245,6 +251,7 @@ button{
 	margin: 0;
 	margin-top: 20px;
 	padding: 0;
+	
 }
 .event p{
 	font-weight: 400;
