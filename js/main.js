@@ -89,7 +89,8 @@ document.getElementById("DateSlider").oninput = function () {
     openFlag = true;
     document.getElementById('event').style = "display: block";
   }
-  current_plot = this.value;
+  current_plot = parseInt(current_plot)
+  current_plot = parseInt(this.value);
   updatedOptions = { 'plots': {} };
   updatedOptions.plots[dictionary[lines[current_plot]['Место пребывания']]] = {
     size: 25,
@@ -109,25 +110,19 @@ document.getElementById("DateSlider").oninput = function () {
   $(".mapcontainer").trigger('update', [{
     mapOptions: updatedOptions
   }]);
-  document.getElementById('event_name').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(';')[0];
-  document.getElementById('PEvent').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(';')[0];
-  document.getElementById('PDate').innerHTML = 'Дата пребывания: ' + lines[current_plot]['Дата пребывания'];
-  document.getElementById('PPlace').innerHTML = 'Место пребывания: ' + lines[current_plot]['Место пребывания'];
-  document.getElementById('PSource').innerHTML = 'Истчоник: ' + lines[current_plot]['Источник'].split(' /')[1];
-  console.log(lines[current_plot]['Имя монарха']);
-  console.log(lines[current_plot]['Дата пребывания']);
-  console.log(lines[current_plot]['Место пребывания']);
-  console.log(lines[current_plot]['Источник']);
-  previous_plot = lines[current_plot]['Место пребывания'];
+  UpdateEvent();
 }
 
 $('.right').on('click', function () {
+  console.log(current_plot);
   if (!openFlag) {
     openFlag = true;
     document.getElementById('event').style = "display: block";
   }
   if (current_plot < 268) {
+    current_plot = parseInt(current_plot)
     current_plot += 1;
+    console.log(current_plot);
     document.getElementById("DateSlider").value = ''+current_plot;
     updatedOptions = { 'plots': {} };
     updatedOptions.plots[dictionary[lines[current_plot]['Место пребывания']]] = {
@@ -148,20 +143,13 @@ $('.right').on('click', function () {
     $(".mapcontainer").trigger('update', [{
       mapOptions: updatedOptions
     }]);
-    document.getElementById('event_name').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(';')[0];
-    document.getElementById('PEvent').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(';')[0];
-    document.getElementById('PDate').innerHTML = 'Дата пребывания: ' + lines[current_plot]['Дата пребывания'];
-    document.getElementById('PPlace').innerHTML = 'Место пребывания: ' + lines[current_plot]['Место пребывания'];
-    document.getElementById('PSource').innerHTML = 'Истчоник: ' + lines[current_plot]['Источник'].split(' /')[1];
-    console.log(lines[current_plot]['Имя монарха']);
-    console.log(lines[current_plot]['Дата пребывания']);
-    console.log(lines[current_plot]['Место пребывания']);
-    console.log(lines[current_plot]['Источник']);
-    previous_plot = lines[current_plot]['Место пребывания'];
+    UpdateEvent();
+
   }
 });
 $('.left').on('click', function () {
   if (current_plot > 1) {
+    current_plot = parseInt(current_plot)
     current_plot -= 1;
     document.getElementById("DateSlider").value = ''+current_plot;
     updatedOptions = { 'plots': {} };
@@ -182,15 +170,20 @@ $('.left').on('click', function () {
     $(".mapcontainer").trigger('zoom', { level: 10, plot: dictionary[lines[current_plot]['Место пребывания']] });
     $(".mapcontainer").trigger('update', [{
       mapOptions: updatedOptions
-
     }]);
-    document.getElementById('event_name').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(';')[0];
-    console.log(lines[current_plot]['Имя монарха']);
-    console.log(lines[current_plot]['Дата пребывания']);
-    console.log(lines[current_plot]['Место пребывания']);
-    console.log(lines[current_plot]['Источник']);
-    if (previous_plot != lines[current_plot]['Место пребывания']) {
-      previous_plot = lines[current_plot]['Место пребывания'];
-    }
+    UpdateEvent();
   }
 });
+function UpdateEvent() {
+  document.getElementById('event_name').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(';')[0];
+  document.getElementById('PEvent').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(';')[0];
+  document.getElementById('PDate').innerHTML = 'Дата пребывания: ' + lines[current_plot]['Дата пребывания'];
+  document.getElementById('PPlace').innerHTML = 'Место пребывания: ' + lines[current_plot]['Место пребывания'];
+  document.getElementById('PSource').innerHTML = 'Истчоник: ' + lines[current_plot]['Источник'].split(' /')[1];
+  // console.log(lines[current_plot]['Имя монарха']);
+  // console.log(lines[current_plot]['Дата пребывания']);
+  // console.log(lines[current_plot]['Место пребывания']);
+  // console.log(lines[current_plot]['Источник']);
+  previous_plot = lines[current_plot]['Место пребывания'];
+}
+
