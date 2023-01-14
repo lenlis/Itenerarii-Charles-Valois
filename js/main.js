@@ -29,8 +29,15 @@ $('.event').on('click', function () {
 $('.button-exit').on('click', function () {
   document.getElementById('popup').style = "display: none";
 })
+for (var i of lines) 
+{
+  console.log(i.name);
+  console.log(i.date);
+  console.log(i.place);
+  console.log(i.source);
+}
 //Перемещение
-var previous_plot = lines.ru[0].place;
+var previous_plot = lines[0].place;
 var current_plot = -1;
 const dictionary = {
   'Замок Фонтенбло': "Fontenblo",
@@ -93,13 +100,13 @@ document.getElementById("DateSlider").oninput = function () {
   current_plot = parseInt(current_plot)
   current_plot = parseInt(this.value);
   updatedOptions = { 'plots': {} };
-  updatedOptions.plots[dictionary[lines.ru[current_plot].place]] = {
+  updatedOptions.plots[dictionary[lines[current_plot].place]] = {
     size: 25,
     attrs: {
       fill: "#3a7bfc"
     }
   };
-  if (previous_plot != lines.ru[current_plot].place) {
+  if (previous_plot != lines[current_plot].place) {
     updatedOptions.plots[dictionary[previous_plot]] = {
       size: 15,
       attrs: {
@@ -107,7 +114,7 @@ document.getElementById("DateSlider").oninput = function () {
       }
     };
   }
-  $(".mapcontainer").trigger('zoom', { level: 10, plot: dictionary[lines.ru[current_plot].place] });
+  $(".mapcontainer").trigger('zoom', { level: 10, plot: dictionary[lines[current_plot].place] });
   $(".mapcontainer").trigger('update', [{
     mapOptions: updatedOptions
   }]);
@@ -126,13 +133,13 @@ $('.right').on('click', function () {
     console.log(current_plot);
     document.getElementById("DateSlider").value = ''+current_plot;
     updatedOptions = { 'plots': {} };
-    updatedOptions.plots[dictionary[lines.ru[current_plot].place]] = {
+    updatedOptions.plots[dictionary[lines[current_plot].place]] = {
       size: 25,
       attrs: {
         fill: "#3a7bfc"
       }
     };
-    if (current_plot > 1 && previous_plot != lines.ru[current_plot].place) {
+    if (current_plot > 1 && previous_plot != lines[current_plot].place) {
       updatedOptions.plots[dictionary[previous_plot]] = {
         size: 15,
         attrs: {
@@ -140,7 +147,7 @@ $('.right').on('click', function () {
         }
       };
     }
-    $(".mapcontainer").trigger('zoom', { level: 10, plot: dictionary[lines.ru[current_plot].place] });
+    $(".mapcontainer").trigger('zoom', { level: 10, plot: dictionary[lines[current_plot].place] });
     $(".mapcontainer").trigger('update', [{
       mapOptions: updatedOptions
     }]);
@@ -154,13 +161,13 @@ $('.left').on('click', function () {
     current_plot -= 1;
     document.getElementById("DateSlider").value = ''+current_plot;
     updatedOptions = { 'plots': {} };
-    updatedOptions.plots[dictionary[lines.ru[current_plot].place]] = {
+    updatedOptions.plots[dictionary[lines[current_plot].place]] = {
       size: 25,
       attrs: {
         fill: "#3a7bfc"
       }
     };
-    if (current_plot < 268 && previous_plot != lines.ru[current_plot].place) {
+    if (current_plot < 268 && previous_plot != lines[current_plot].place) {
       updatedOptions.plots[dictionary[previous_plot]] = {
         size: 15,
         attrs: {
@@ -168,7 +175,7 @@ $('.left').on('click', function () {
         }
       };
     }
-    $(".mapcontainer").trigger('zoom', { level: 10, plot: dictionary[lines.ru[current_plot].place] });
+    $(".mapcontainer").trigger('zoom', { level: 10, plot: dictionary[lines[current_plot].place] });
     $(".mapcontainer").trigger('update', [{
       mapOptions: updatedOptions
     }]);
@@ -176,15 +183,15 @@ $('.left').on('click', function () {
   }
 });
 function UpdateEvent() {
-  document.getElementById('event_name').innerHTML = lines.ru[current_plot].source.split(' /')[0].split(';')[0];
-  document.getElementById('PEvent').innerHTML = lines.ru[current_plot].source.split(' /')[0].split(';')[0];
-  document.getElementById('PDate').innerHTML = 'Дата пребывания: ' + lines.ru[current_plot].date;
-  document.getElementById('PPlace').innerHTML = 'Место пребывания: ' + lines.ru[current_plot].place;
-  document.getElementById('PSource').innerHTML = 'Истчоник: ' + lines.ru[current_plot].source.split(' /')[1];
-  console.log(lines.ru[current_plot].name);
-  console.log(lines.ru[current_plot].date);
-  console.log(lines.ru[current_plot].place);
-  console.log(lines.ru[current_plot].source);
+  document.getElementById('event_name').innerHTML = lines[current_plot].source.split(' /')[0].split(';')[0];
+  document.getElementById('PEvent').innerHTML = lines[current_plot].source.split(' /')[0].split(';')[0];
+  document.getElementById('PDate').innerHTML = 'Дата пребывания: ' + lines[current_plot].date;
+  document.getElementById('PPlace').innerHTML = 'Место пребывания: ' + lines[current_plot].place;
+  document.getElementById('PSource').innerHTML = 'Истчоник: ' + lines[current_plot].source.split(' /')[1];
+  console.log(lines[current_plot].name);
+  console.log(lines[current_plot].date);
+  console.log(lines[current_plot].place);
+  console.log(lines[current_plot].source);
   previous_plot = lines[current_plot].place;
 }
 
