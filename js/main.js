@@ -182,10 +182,10 @@ function UpdateEvent() {
   document.getElementById('PDate').innerHTML = 'Дата пребывания: ' + lines[current_plot].date;
   document.getElementById('PPlace').innerHTML = 'Место пребывания: ' + lines[current_plot].place;
   document.getElementById('PSource').innerHTML = 'Истчоник: ' + lines[current_plot].source.split(' /')[1];
-  // console.log(lines[current_plot].name);
-  // console.log(lines[current_plot].date);
-  // console.log(lines[current_plot].place);
-  // console.log(lines[current_plot].source);
+  console.log(lines[current_plot].name);
+  console.log(lines[current_plot].date);
+  console.log(lines[current_plot].place);
+  console.log(lines[current_plot].source);
   previous_plot = lines[current_plot].place;
 }
 
