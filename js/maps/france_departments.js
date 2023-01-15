@@ -197,8 +197,8 @@ $(function () {
             zoom: {
                 enabled: true,
                 mousewheel: true,
-                maxLevel:20,
-                step:0.25,
+                maxLevel: 20,
+                step: 0.25,
                 init: {
                     x: 960,
                     y: 540,
@@ -211,7 +211,7 @@ $(function () {
                     fill: "#3a7bfc"
                 },
             },
-            defaultPlot:{
+            defaultPlot: {
                 attrs: {
                     fill: "#343434",
                     stroke: "#ffffff",
@@ -348,345 +348,344 @@ $(function () {
             'Fontenblo': {
                 x: 1045,
                 y: 360,
-                
+
                 tooltip: { content: "Замок Фонтенбло" },
-                
-            }, 
+
+            },
             'Saint-Germain': {
                 x: 1005,
                 y: 314,
-                
+
                 tooltip: { content: "Замок Сен-Жермен-ан-Ле" },
-                
-            }, 
+            },
             'Louvre': {
                 x: 1022,
                 y: 320,
-                
+
                 tooltip: { content: "Лувр" },
-                
-            }, 
+
+            },
             'Bourges': {
                 x: 1023,
                 y: 480,
-                
+
                 tooltip: { content: "Бурж" },
-                
-            }, 
+
+            },
             'Beaugency': {
                 x: 982,
                 y: 416,
-                
+
                 tooltip: { content: "Божанси" },
-                
-            }, 
+
+            },
             'Gien': {
                 x: 1041,
                 y: 424,
-                
+
                 tooltip: { content: "Замок Жьен" },
-                
-            }, 
+
+            },
             'Bordeaux': {
                 x: 840,
                 y: 680,
-                
+
                 tooltip: { content: "Бордо" },
-                
-            }, 
+
+            },
             'Mont-de-Marsan': {
                 x: 848,
                 y: 770,
-                
+
                 tooltip: { content: "Мон-Де-Марсан" },
-                
-            }, 
+
+            },
             'Bayonne': {
                 x: 783,
                 y: 806,
-                
+
                 tooltip: { content: "Байонна" },
-                
-            }, 
+
+            },
             'Saint-Jean-de-Luz': {
                 x: 773,
                 y: 815,
-                
+
                 tooltip: { content: "Сен-Жан-де-Люз" },
-                
-            }, 
+
+            },
             'Saint-Mor-de-Fosse': {
                 x: 1030,
                 y: 326,
-                
+
                 tooltip: { content: "Сен-Мор-де-Фоссе" },
-                
-            }, 
+
+            },
             'Chateaudun': {
                 x: 957,
                 y: 391,
-                
+
                 tooltip: { content: "Палаточный лагерь близ Шатодена" },
-                
-            }, 
+
+            },
             'Rouen': {
                 x: 943,
                 y: 260,
-                
+
                 tooltip: { content: "Палаточный лагерь близ Руана" },
-                
-            }, 
+
+            },
             'Vincennes': {
                 x: 1028,
                 y: 319,
-                
+
                 tooltip: { content: "Венсеннский замок" },
-                
-            }, 
+
+            },
             'Orlean': {
                 x: 994,
                 y: 401,
-                
+
                 tooltip: { content: "Палаточный лагерь близ Орлеана" },
-                
-            }, 
+
+            },
             'Trua': {
                 x: 1122,
                 y: 363,
-                
+
                 tooltip: { content: "Труа" },
-                
-            }, 
+
+            },
             'Shenonso': {
                 x: 940,
                 y: 456,
-                
+
                 tooltip: { content: "Замок Шенонсо" },
-                
-            }, 
+
+            },
             'Mant': {
                 x: 1186,
                 y: 641,
-                
+
                 tooltip: { content: "Мант" },
-                
-            }, 
+
+            },
             'Havre': {
                 x: 885,
                 y: 257,
-                
+
                 tooltip: { content: "Палаточный лагерь близ Гавра" },
-                
-            }, 
+
+            },
             'Gaillon': {
                 x: 958,
                 y: 292,
-                
+
                 tooltip: { content: "Замок Гайон" },
-                
-            }, 
+
+            },
             'Meulan': {
                 x: 1235,
                 y: 642,
-                
+
                 tooltip: { content: "Замок Мелан" },
-                
-            }, 
+
+            },
             'Lyon': {
                 x: 1178,
                 y: 598,
-                
+
                 tooltip: { content: "Лион" },
-                
-            }, 
+
+            },
             'Roussillon': {
                 x: 1203,
                 y: 763,
-                
+
                 tooltip: { content: "Руссильон" },
-                
-            }, 
+
+            },
             'Valence': {
                 x: 1181,
                 y: 678,
-                
+
                 tooltip: { content: "Валанс" },
-                
-            }, 
+
+            },
             'Avignon': {
                 x: 1179,
                 y: 759,
-                
+
                 tooltip: { content: "Авиньон" },
-                
-            }, 
+
+            },
             'Marseilles': {
                 x: 1215,
                 y: 819,
-                
+
                 tooltip: { content: "Марсель" },
-                
-            }, 
+
+            },
             'Arles': {
                 x: 1168,
                 y: 785,
-                
+
                 tooltip: { content: "Арль" },
-                
-            }, 
+
+            },
             'Tarascon': {
                 x: 1167,
                 y: 776,
-                
+
                 tooltip: { content: "Тараскон" },
-                
-            }, 
+
+            },
             'Montpellier': {
                 x: 1114,
                 y: 791,
-                
+
                 tooltip: { content: "Монпелье" },
-                
-            }, 
+
+            },
             'Carcasson': {
                 x: 1019,
                 y: 827,
-                
+
                 tooltip: { content: "Каркассон" },
-                
-            }, 
+
+            },
             'Toulouse': {
                 x: 963,
                 y: 792,
-                
+
                 tooltip: { content: "Тулуза" },
-                
-            }, 
+
+            },
             'Villers-Cottere': {
                 x: 1067,
                 y: 277,
-                
+
                 tooltip: { content: "Вилле-Коттре" },
-                
-            }, 
+
+            },
             'Chiry-Ourscamp': {
                 x: 1053,
                 y: 251,
-                
+
                 tooltip: { content: "Шири-Урскан" },
-                
-            }, 
+
+            },
             'Soissons': {
                 x: 1079,
                 y: 268,
-                
+
                 tooltip: { content: "Суассон" },
-                
-            }, 
+
+            },
             'Kompen': {
                 x: 1045,
                 y: 263,
-                
+
                 tooltip: { content: "Компьень" },
-                
-            }, 
+
+            },
             'Senlis': {
                 x: 1036,
                 y: 281,
-                
+
                 tooltip: { content: "Санлис" },
-                
-            }, 
+
+            },
             'Mec': {
                 x: 1256,
                 y: 291,
-                
+
                 tooltip: { content: "Мец" },
-                
-            }, 
+
+            },
             'Plessis-lez-Tours': {
                 x: 909,
                 y: 448,
-                
+
                 tooltip: { content: "Замок Плесси-Ле-Тур" },
-                
-            }, 
+
+            },
             'Biron': {
                 x: 926,
                 y: 694,
-                
+
                 tooltip: { content: "Замок Бирон" },
-                
-            }, 
+
+            },
             'Tonnay-Boutonne': {
                 x: 827,
                 y: 572,
-                
+
                 tooltip: { content: "Палаточный лагерь близ Тонне-Бутонн" },
-                
-            }, 
+
+            },
             'Saint-Jean-Anjeli': {
                 x: 841,
                 y: 578,
-                
+
                 tooltip: { content: "Палаточный лагерь близ Сен-Жан-д’Анжели" },
-                
-            }, 
+
+            },
             'Angers': {
                 x: 838,
                 y: 445,
-                
+
                 tooltip: { content: "Анжерский замок" },
-                
-            }, 
+
+            },
             'Chateaubriant': {
                 x: 783,
                 y: 421,
-                
+
                 tooltip: { content: "Шатобриан" },
-                
-            }, 
+
+            },
             'Argentan': {
                 x: 869,
                 y: 328,
-                
+
                 tooltip: { content: "Аржантан" },
-                
-            }, 
+
+            },
             'Blua': {
                 x: 954,
                 y: 432,
-                
+
                 tooltip: { content: "Замок Блуа" },
-                
-            }, 
+
+            },
             'Houssay': {
                 x: 889,
                 y: 463,
-                
+
                 tooltip: { content: "Замок Уссе" },
-                
-            }, 
+
+            },
             'Amboise': {
                 x: 932,
                 y: 447,
-                
+
                 tooltip: { content: "Амбуазский замок" },
-                
-            }, 
+
+            },
             'Yvelines': {
                 x: 981,
                 y: 325,
-                
+
                 tooltip: { content: "Сен-Лежер-ан-Ивлин" },
-                
-            }, 
+
+            },
             'Lesigny': {
                 x: 1040,
                 y: 327,
-                
+
                 tooltip: { content: "Лезиньи" },
-                
+
             }
         }
     });
@@ -694,21 +693,21 @@ $(function () {
     $(".mapcontainer").on("zoom.mapael", function () {
         var animDuration = $.mapael.prototype.defaultOptions.map.zoom.animDuration;
         clearTimeout(zoomTO);
-        zoomTO = setTimeout(function() {
-          // Compute the actual zoom value, base on step value
-          // Note: if you override this value in your option, you need to update this code here as well
-          var zoomLevelSteps = 1 + $(".mapcontainer").data("mapael").zoomData.zoomLevel * $.mapael.prototype.defaultOptions.map.zoom.step;
-          // Scaling: inverse fn of zoom value since we need to reduce size when increasing zoom
-          var scaling = 1 / zoomLevelSteps;
-          console.log(zoomLevelSteps, scaling, mapaelPlotsSet.length);
-          // Apply transfrom on the set defined earlier
-          if (animDuration > 0) {
-            mapaelPlotsSet.animate({
-              transform: "s" + scaling
-            }, animDuration);
-          } else {
-            mapaelPlotsSet.transform("s" + scaling);
-          }
+        zoomTO = setTimeout(function () {
+            // Compute the actual zoom value, base on step value
+            // Note: if you override this value in your option, you need to update this code here as well
+            var zoomLevelSteps = 1 + $(".mapcontainer").data("mapael").zoomData.zoomLevel * $.mapael.prototype.defaultOptions.map.zoom.step;
+            // Scaling: inverse fn of zoom value since we need to reduce size when increasing zoom
+            var scaling = 1 / zoomLevelSteps;
+            console.log(zoomLevelSteps, scaling, mapaelPlotsSet.length);
+            // Apply transfrom on the set defined earlier
+            if (animDuration > 0) {
+                mapaelPlotsSet.animate({
+                    transform: "s" + scaling
+                }, animDuration);
+            } else {
+                mapaelPlotsSet.transform("s" + scaling);
+            }
         }, animDuration / 2);
     });
 });
