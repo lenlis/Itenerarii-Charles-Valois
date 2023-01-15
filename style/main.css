@@ -274,6 +274,8 @@ button{
 	font-size: 12px;
 	line-height: 14px;
 	border: 1px solid #777777;
+	position: absolute;
+	bottom: 10px;
 }
 
 /* PopUp */
@@ -376,7 +378,7 @@ button{
 	position: absolute;
 	/* top: 292vh; */ 
 	
-	bottom: 20vh;
+	bottom: 158px;
 	padding: 5px 15px;
 }
 .move-arrows .right{
@@ -475,7 +477,7 @@ button{
     transition: opacity .2s;
 	z-index: 1008;
 	position: absolute; 
-	bottom: 22.5vh;
+	bottom: 185px;
 }
 
 .slider::-webkit-slider-thumb {
