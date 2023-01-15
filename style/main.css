@@ -217,6 +217,13 @@ button{
 }
 
 /* Событие */
+.event_num{
+	position: absolute; 
+	padding: 5px;
+	top: 0; 
+	left: 0; 
+	font-size: 20px;
+}
 .container{
 	position: relative;
 }
@@ -400,7 +407,6 @@ button{
 .mapael .mapTooltip {
 	position: absolute;
 	background-color: #474c4b;
-	moz-opacity: 0.70;
 	opacity: 0.70;
 	filter: alpha(opacity=70);
 	border-radius: 10px;
@@ -431,7 +437,7 @@ button{
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
 	margin: auto;
-    width: 86%; /* Full-width */
+    width: 86%;
     height: 5px; /* Specified height */
 	border-radius: 5px;
     background: #ffffff;
@@ -439,7 +445,7 @@ button{
     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
-	z-index: 1010;
+	z-index: 1008;
 	position: absolute; 
 	bottom: 22.5vh;
 }
@@ -452,6 +458,7 @@ button{
     border-radius: 50%; 
     background: #ffffff;
     cursor: pointer;
+	z-index: 1080;
 }
 
 .slider::-moz-range-thumb {
@@ -460,4 +467,6 @@ button{
     border-radius: 50%;
     background: #ffffff;
     cursor: pointer;
+	z-index: 1080;
 }
+
