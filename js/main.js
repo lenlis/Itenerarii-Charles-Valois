@@ -176,8 +176,8 @@ $('.left').on('click', function () {
 });
 function UpdateEvent() {
   document.getElementById('num').innerHTML = lines[current_plot]['Номер'];
-  document.getElementById('event_name').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(',')[0];
-  document.getElementById('PEvent').innerHTML = lines[current_plot]['Источник'].split(' /')[0].split(',')[0];
+  document.getElementById('event_name').innerHTML = lines[current_plot]['Источник'].split('/')[0].split(',')[0];
+  document.getElementById('PEvent').innerHTML = lines[current_plot]['Источник'].split('/')[0].split(',')[0];
   document.getElementById('PDate').innerHTML = 'Дата пребывания: ' + lines[current_plot]['Дата пребывания'];
   document.getElementById('PPlace').innerHTML = 'Место пребывания: ' + lines[current_plot]['Место пребывания'];
   document.getElementById('PSource').innerHTML = 'Истчоник: ' + lines[current_plot]['Источник'];
