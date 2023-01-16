@@ -396,20 +396,41 @@ button{
 	width: 100%;
 	height: 100%;
 	z-index: 1010;
-	background-color:red;
+	background-color:#111111;
 	position:absolute;
 }
 .popup-event-button-exit{
 	display: block;
-	color: #111111;
+	color: #FFFFFF;
 	padding: 10px;
 	margin: 0 auto;
+	margin-top: 5px;
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 36px;
 	cursor: pointer;
-	padding: 0px 20px;
-	border:solid 1px black
+	padding: 0px 25px;
+	border:solid 1px #FFFFFF;
+}
+.popup-event-div{
+	width: 80%;
+	height: 80%;
+	background-color:#FFFFFF;
+	margin: 0 auto;
+}
+.popup-event-footer{
+	position:absolute;
+	bottom: 20px;
+	z-index: 1001;
+	width: 100%;
+}
+.popup-event-footer-p{
+
+	text-align: center;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.75em;
 }
 /* Подвал сайта */
 	
