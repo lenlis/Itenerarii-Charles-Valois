@@ -181,15 +181,7 @@ div.center .line{
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-	.map-header {
-	  transition: opacity 1.5s ease, transform 1.5s ease;
-	}
-  }
-  .opacity-animation {
-	opacity: 1;
-	transform: none;
-  }
+
 
 .navigation-list{
 	display: flex;
@@ -455,6 +447,12 @@ button{
 	cursor: pointer;
 	padding: 0px 25px;
 	border:solid 1px #FFFFFF;
+    transition: all 500ms ease;
+}
+
+.popup-event-button-exit:hover {
+	background: #FFFFFF;
+	color: #222222;
 }
 .popup-event-div{
 	width: 80%;
@@ -495,6 +493,7 @@ button{
 	border-radius: 50%; 
 	cursor: pointer;
 	z-index: 1000;
+	transition: all 500ms ease;
 }
 
 .popup-event-listEvent li:nth-child(2n+1){
@@ -513,14 +512,19 @@ button{
 	background: #ffffff;
 	border-radius: 50%; 
 	cursor: pointer;
+	transition: all 500ms ease;
 }
-
+.popup-event-listEvent li:nth-child(2n+1) button:hover, 
+.popup-event-listEvent li:nth-child(2n) button:hover{
+	background: #3a7bfc;
+}
 .popup-event-listEvent .line{
 	width: 100%;
 	position: absolute;
 	top:10px;
 	border-bottom: solid 3px #ffffff;
 }
+
 
 .popup-event-main{
 	display: flex;
@@ -552,6 +556,45 @@ button{
 	line-height: 14px;
 	letter-spacing: 0.75em;
 }
+
+/*Слайдер событий*/
+
+/* .block-for-slider {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+} */
+
+.viewport {
+    width: 100%;
+    position: relative;
+	display: table;
+    overflow: hidden;
+}
+
+.slidewrapper {
+    position: relative;
+    width: calc(100% * 15);
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+
+.slidewrapper li {
+    width: calc(100%/15);
+    list-style: none;
+	display: inline;
+    float: left;
+}
+
 /* Подвал сайта */
 	
 .main-footer{
@@ -703,3 +746,16 @@ button{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+
+/* Анимации */
+@media (prefers-reduced-motion: no-preference) {
+	.map-header {
+	  transition: opacity 1.5s ease, transform 1.5s ease;
+	}
+  }
+
+.opacity-animation {
+	opacity: 1;
+	transform: none;
+}
+
