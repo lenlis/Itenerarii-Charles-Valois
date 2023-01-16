@@ -43,10 +43,16 @@ $('.button-exit').on('click', function () {
 //События
 let popup_event = document.querySelector('.popup-event');
 $('.events').on('click', function () {
-  document.getElementById('popup-event').style = "display: block";
+  if(popup_event.classList.contains('is-hidden'))
+  {
+    popup_event.classList.remove('is-hidden')
+  }
+  popup_event.classList.add('is-visible');
 })
 $('.popup-event-button-exit').on('click', function () {
-  document.getElementById('popup-event').style = "display: none";
+  popup_event.classList.add('is-hidden');
+  window.setTimeout(function() {
+    popup_event.classList.remove('is-visible')}, 250)
 })
 //Перемещение
 var previous_plot = lines[0]['Место пребывания'];
@@ -170,7 +176,7 @@ $('.slide-nav-btn').click(function() {
   if(prevBtn != 0){
     prevBtn.style = "background: #ffffff";
   }
-  else{ if((this).id = 1){
+  else{ if((this).id == 1){
     prevBtn.style = "background: #ffffff";
   }}
   navBtnId = parseInt((this).id);
