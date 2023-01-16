@@ -181,15 +181,7 @@ div.center .line{
 }
 
 
-@media (prefers-reduced-motion: no-preference) {
-	.map-header {
-	  transition: opacity 1.5s ease, transform 1.5s ease;
-	}
-  }
-  .opacity-animation {
-	opacity: 1;
-	transform: none;
-  }
+
 
 .navigation-list{
 	display: flex;
@@ -455,6 +447,12 @@ button{
 	cursor: pointer;
 	padding: 0px 25px;
 	border:solid 1px #FFFFFF;
+    transition: all 500ms ease;
+}
+
+.popup-event-button-exit:hover {
+	background: #FFFFFF;
+	color: #222222;
 }
 .popup-event-div{
 	width: 80%;
@@ -495,6 +493,7 @@ button{
 	border-radius: 50%; 
 	cursor: pointer;
 	z-index: 1000;
+	transition: all 500ms ease;
 }
 
 .popup-event-listEvent li:nth-child(2n+1){
@@ -513,8 +512,12 @@ button{
 	background: #ffffff;
 	border-radius: 50%; 
 	cursor: pointer;
+	transition: all 500ms ease;
 }
-
+.popup-event-listEvent li:nth-child(2n+1) button:hover, 
+.popup-event-listEvent li:nth-child(2n) button:hover{
+	background: #3a7bfc;
+}
 .popup-event-listEvent .line{
 	width: 100%;
 	position: absolute;
@@ -742,5 +745,17 @@ button{
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Анимации */
+@media (prefers-reduced-motion: no-preference) {
+	.map-header {
+	  transition: opacity 1.5s ease, transform 1.5s ease;
+	}
+  }
+
+.opacity-animation {
+	opacity: 1;
+	transform: none;
 }
 
