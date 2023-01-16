@@ -160,3 +160,20 @@ function UpdateEvent() {
   previous_plot = lines[current_plot]['Место пребывания'];
 }
 
+// слайдер событий
+var slideNow = 1;
+var slideCount = $('.slidewrapper').children().length;
+var navBtnId = 0;
+$('.slide-nav-btn').click(function() {
+  navBtnId = parseInt((this).id);
+  console.log(parseInt((this).id))
+  if (navBtnId + 1 != slideNow) {
+      translateWidth = -$('.viewport').width() * (navBtnId);
+      $('.slidewrapper').css({
+          'transform': 'translate(' + translateWidth + 'px, 0)',
+          '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
+          '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
+      });
+      slideNow = navBtnId + 1;
+  }
+});
