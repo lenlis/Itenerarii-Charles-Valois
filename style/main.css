@@ -321,7 +321,11 @@ button{
 
 }
 
-.p-photo-letter{
+.photo-letter{
+	height: 70%;
+}
+
+/* .p-photo-letter{
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -330,7 +334,7 @@ button{
 	border: 1px solid #000000;
 	width: 250px;
 	margin: 0 auto;;
-}
+} */
 
 .popup-right, .popup-left{
 	width:50%;
