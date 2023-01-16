@@ -40,14 +40,7 @@ $('.event').on('click', function () {
 $('.button-exit').on('click', function () {
   document.getElementById('popup').style = "display: none";
 })
-//События
-let popup_event = document.querySelector('.popup-event');
-$('.events').on('click', function () {
-  document.getElementById('popup-event').style = "display: block";
-})
-$('.popup-event-button-exit').on('click', function () {
-  document.getElementById('popup-event').style = "display: none";
-})
+
 //Перемещение
 var previous_plot = lines[0]['Место пребывания'];
 var current_plot = -1;

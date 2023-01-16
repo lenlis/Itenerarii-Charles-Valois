@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"
         charset="utf-8"></script>
+    <script src="js/events.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
     <title>Histoire</title>
 </head>
@@ -17,7 +18,7 @@
     <header>
         <nav class="navigation">
             <ul class="navigation-list">
-                <li class="navigation-list-item no-select"> <a href="#" class="button-animation"> événements</a></li>
+                <li class="navigation-list-item no-select"> <button class="button-animation events"> événements</button></li>
                 <li class="navigation-list-item no-select"> <a href="mainFR.html#map" class="button-animation">carte</a>
                 </li>
                 <li class="navigation-list-item logo-items no-select"><a href="mainFR.html" id="h-logo"
@@ -163,10 +164,46 @@
         <div class="back">
             De retour sur la carte?<a href="mainFR.html#map" class="no-select">Carte</a>
         </div>
+        <article class="popup-event" id="popup-event"> 
+            <button class="popup-event-button-exit" id="popup-event-button-exit">x</button>
+            <div class="popup-event-div">
+                <div class="popup-event-header">
+                    <h2>Выберите год события,<br> о котором вы хотите узнать</h2>
+                    <ul class="popup-event-listEvent">
+                        <li>1560 <button class="circle"></button> </li>
+                        <li>1561 <button class="circle"></button> </li>
+                        <li>1562 <button class="circle"></button> </li>
+                        <li>1563 <button class="circle"></button> </li>
+                        <li>1564 <button class="circle"></button> </li>
+                        <li>1565 <button class="circle"></button> </li>
+                        <li>1566 <button class="circle"></button> </li>
+                        <li>1567 <button class="circle"></button> </li>
+                        <li>1568 <button class="circle"></button> </li>
+                        <li>1569 <button class="circle"></button> </li>
+                        <li>1570 <button class="circle"></button> </li>
+                        <li>1571 <button class="circle"></button> </li>
+                        <li>1572 <button class="circle"></button> </li>
+                        <li>1573 <button class="circle"></button> </li>
+                        <li>1574 <button class="circle"></button> </li>
+                        <div class="line"></div>
+                    </ul>
+                    
+                </div>
+                <div class="popup-event-main">
+                    <img src="image\photo-event.JPEG" alt="Фото События">
+                    <p>Событие: Смерть в Орлеане Франциска II Валуа 5 декабря 1560 года. Так как юный король умирает бездетным ему наследует его младший десятилетний брат Шарль-Максимилиан, который становится Карлом IX Валуа.</p>
+                </div>
+            </div>
+            <div class="popup-event-footer">
+                <p class="popup-event-footer-p">Временная линия событий</p>
+            </div>
+        </article>
     </main>
+    
     <footer>
         <p>Le projet a été préparé par des étudiants de l'Université fédérale de l'Oural (curateur : Sergey Ryabov, conseiller scientifique : Vladimir Chichkin)</p>
     </footer>
+    <script src="js/events.js"></script>
 </body>
 
 </html>
