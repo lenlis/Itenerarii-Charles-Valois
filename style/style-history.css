@@ -264,6 +264,7 @@ footer{
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Попап событие */
 .popup-event{
 	display: none;
@@ -387,6 +388,8 @@ footer{
 =======
 >>>>>>> cce793c (убраны события)
 =======
+=======
+>>>>>>> b6f8e3cf5168c3d62a175caf10f626615b56091b
 .language{
 	display: flex;
 	position: absolute;
@@ -424,4 +427,7 @@ button{
 	position: relative;
 }
 
+<<<<<<< HEAD
 >>>>>>> 9f1a0dc (Добавил проект + кнопки смены языков на страницах)
+=======
+>>>>>>> b6f8e3cf5168c3d62a175caf10f626615b56091b
