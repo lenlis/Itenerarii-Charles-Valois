@@ -557,6 +557,17 @@ button{
 	letter-spacing: 0.75em;
 }
 
+.popup-event-main  a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+figcaption{
+	margin-top:10px ;
+	border: solid 1px white;
+	text-align: center;
+}
+
 /*Слайдер событий*/
 
 /* .block-for-slider {
