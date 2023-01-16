@@ -16,8 +16,22 @@ $('.mapcontainer').on('mouseenter', function () {
 }).on('mouseleave', function () {
   $.scrollify.enable();
 });
+//анимация header
+const map_header = document.querySelector('.map-header');
+map_header.classList.remove('opacity-animation');
 
-//Событие
+// Добавить наблюдение за появлением элемента
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      map_header.classList.add('opacity-animation');
+      return;
+    }
+    map_header.classList.remove('opacity-animation');
+  });
+});
+observer.observe(document.querySelector('.map-header'));
+//Письмо
 var openFlag = false;
 let popup = document.querySelector('.popup');
 $('.event').on('click', function () {
@@ -25,6 +39,14 @@ $('.event').on('click', function () {
 })
 $('.button-exit').on('click', function () {
   document.getElementById('popup').style = "display: none";
+})
+//События
+let popup_event = document.querySelector('.popup-event');
+$('.events').on('click', function () {
+  document.getElementById('popup-event').style = "display: block";
+})
+$('.events-exit').on('click', function () {
+  document.getElementById('popup-event').style = "display: none";
 })
 //Перемещение
 var previous_plot = lines[0]['Место пребывания'];
