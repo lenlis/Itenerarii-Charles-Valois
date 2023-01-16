@@ -29,57 +29,7 @@ $('.button-exit').on('click', function () {
 //Перемещение
 var previous_plot = lines[0]['Место пребывания'];
 var current_plot = -1;
-var dictionary = {
-  'Замок Фонтенбло': 'Fontenblo', 
-  'Париж; Лувр': 'Louvre',
-  'Бурж': 'Bourges', 
-  'Божанси': 'Beaugency', 
-  'Замок Жьен': 'Gien', 
-  'Замок Сен-Жермен-ан-Ле': 'Saint-Germain', 
-  'Бордо': 'Bordeaux', 
-  'Мон-Де-Марсан': 'Mont-de-Marsan', 
-  'Байонна': 'Bayonne', 
-  'Сен-Жан-де-Люз': 'Saint-Jean-de-Luz', 
-  'Сен-Мор-де-Фоссе': 'Saint-Mor-de-Fosse', 
-  'Палаточный лагерь близ Шатодена': 'Chateaudun', 
-  'Палаточный лагерь близ Руана': 'Rouen', 
-  'Венсеннский замок': 'Vincennes', 
-  'Палаточный лагерь близ Орлеана': 'Orlean', 
-  'Труа': 'Trua', 
-  'Замок Шенонсо': 'Shenonso', 
-  'Мант': 'Mant', 
-  'Палаточный лагерь близ Гавра': 'Havre', 
-  'Замок Гайон': 'Gaillon', 
-  'Замок Мелан': 'Meulan', 
-  'Лион': 'Lyon', 
-  'Руссильон': 'Roussillon', 
-  'Валанс': 'Valence', 
-  'Авиньон': 'Avignon', 
-  'Марсель': 'Marseilles', 
-  'Арль': 'Arles', 
-  'Тараскон': 'Tarascon', 
-  'Монпелье': 'Montpellier', 
-  'Каркассон': 'Carcasson', 
-  'Тулуза': 'Toulouse', 
-  'Вилле-Коттре': 'Villers-Cottere', 
-  'Шири-Урскан': 'Chiry-Ourscamp', 
-  'Суассон': 'Soissons', 
-  'Компьень': 'Kompen', 
-  'Санлис': 'Senlis', 
-  'Мец': 'Mec', 
-  'Замок Плесси-Ле-Тур': 'Plessis-lez-Tours', 
-  'Замок Бирон': 'Biron', 
-  'Палаточный лагерь близ Тонне-Бутонн': 'Tonnay-Boutonne', 
-  'Палаточный лагерь близ Сен-Жан-д’Анжели': 'Saint-Jean-Anjeli', 
-  'Анжерский замок': 'Angers', 
-  'Шатобриан': 'Chateaubriant', 
-  'Аржантан': 'Argentan', 
-  'Замок Блуа': 'Blua', 
-  'Замок Уссе': 'Houssay', 
-  'Амбуазский замок': 'Amboise', 
-  'Сен-Лежер-ан-Ивлин': 'Yvelines', 
-  'Лезиньи': 'Lesigny'
-}
+
 // current_plot = document.getElementById("DateSlider").value;
 var updatedOptions = { 'plots': {} };
 var prevSliderValue = 0;
@@ -113,7 +63,7 @@ document.getElementById("DateSlider").oninput = function () {
   UpdateEvent();
 }
 
-$('.right').on('click', function () {
+$(".right").on('click', function () {
   console.log(current_plot);
   if (!openFlag) {
     openFlag = true;
