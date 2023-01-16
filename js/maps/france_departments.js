@@ -349,342 +349,342 @@ $(function () {
                 x: 1045,
                 y: 360,
 
-                tooltip: { content: "Замок Фонтенбло" },
+                tooltip: { content: "Замок Фонтенбло<br>Chateau de Fontainebleau" },
 
             },
             'Saint-Germain': {
                 x: 1005,
                 y: 314,
 
-                tooltip: { content: "Замок Сен-Жермен-ан-Ле" },
+                tooltip: { content: "Замок Сен-Жермен-ан-Ле<br>Chateau de Saint-Germain-en-Laye" },
             },
             'Louvre': {
                 x: 1022,
                 y: 320,
 
-                tooltip: { content: "Лувр" },
+                tooltip: { content: "Лувр<br>Louvre" },
 
             },
             'Bourges': {
                 x: 1023,
                 y: 480,
 
-                tooltip: { content: "Бурж" },
+                tooltip: { content: "Бурж<br>Bourges" },
 
             },
             'Beaugency': {
                 x: 982,
                 y: 416,
 
-                tooltip: { content: "Божанси" },
+                tooltip: { content: "Божанси<br>Beaugency" },
 
             },
             'Gien': {
                 x: 1041,
                 y: 424,
 
-                tooltip: { content: "Замок Жьен" },
+                tooltip: { content: "Замок Жьен<br>Gien" },
 
             },
             'Bordeaux': {
                 x: 840,
                 y: 680,
 
-                tooltip: { content: "Бордо" },
+                tooltip: { content: "Бордо<br>Bordeaux" },
 
             },
             'Mont-de-Marsan': {
                 x: 848,
                 y: 770,
 
-                tooltip: { content: "Мон-Де-Марсан" },
+                tooltip: { content: "Мон-Де-Марсан<br>Mont-de-Marsan" },
 
             },
             'Bayonne': {
                 x: 783,
                 y: 806,
 
-                tooltip: { content: "Байонна" },
+                tooltip: { content: "Байонна<br>Bayonne" },
 
             },
             'Saint-Jean-de-Luz': {
                 x: 773,
                 y: 815,
 
-                tooltip: { content: "Сен-Жан-де-Люз" },
+                tooltip: { content: "Сен-Жан-де-Люз<br>Saint-Jean-de-Luz" },
 
             },
             'Saint-Mor-de-Fosse': {
                 x: 1030,
                 y: 326,
 
-                tooltip: { content: "Сен-Мор-де-Фоссе" },
+                tooltip: { content: "Сен-Мор-де-Фоссе<br>Saint-Maur-des-Fosses" },
 
             },
             'Chateaudun': {
                 x: 957,
                 y: 391,
 
-                tooltip: { content: "Палаточный лагерь близ Шатодена" },
+                tooltip: { content: "Палаточный лагерь близ Шатодена<br>Camp pres de Chateaudun" },
 
             },
             'Rouen': {
                 x: 943,
                 y: 260,
 
-                tooltip: { content: "Палаточный лагерь близ Руана" },
+                tooltip: { content: "Палаточный лагерь близ Руана<br>Camp pres de Rouen" },
 
             },
             'Vincennes': {
                 x: 1028,
                 y: 319,
 
-                tooltip: { content: "Венсеннский замок" },
+                tooltip: { content: "Венсеннский замок<br>Chateau de Vincennes" },
 
             },
             'Orlean': {
                 x: 994,
                 y: 401,
 
-                tooltip: { content: "Палаточный лагерь близ Орлеана" },
+                tooltip: { content: "Палаточный лагерь близ Орлеана<br>Camp de Saint Mesmin pres Orleans" },
 
             },
             'Trua': {
                 x: 1122,
                 y: 363,
 
-                tooltip: { content: "Труа" },
+                tooltip: { content: "Труа<br>Troye" },
 
             },
             'Shenonso': {
                 x: 940,
                 y: 456,
 
-                tooltip: { content: "Замок Шенонсо" },
+                tooltip: { content: "Замок Шенонсо<br>Chateau de Chenonceau" },
 
             },
             'Mant': {
                 x: 1186,
                 y: 641,
 
-                tooltip: { content: "Мант" },
+                tooltip: { content: "Мант<br>Mantes" },
 
             },
             'Havre': {
                 x: 885,
                 y: 257,
 
-                tooltip: { content: "Палаточный лагерь близ Гавра" },
+                tooltip: { content: "Палаточный лагерь близ Гавра<br>Camp pres du Havre" },
 
             },
             'Gaillon': {
                 x: 958,
                 y: 292,
 
-                tooltip: { content: "Замок Гайон" },
+                tooltip: { content: "Замок Гайон<br>Chateau de Gaillon" },
 
             },
             'Meulan': {
                 x: 1235,
                 y: 642,
 
-                tooltip: { content: "Замок Мелан" },
+                tooltip: { content: "Замок Мелан<br>Chateau Meulan" },
 
             },
             'Lyon': {
                 x: 1178,
                 y: 598,
 
-                tooltip: { content: "Лион" },
+                tooltip: { content: "Лион<br>Lyon" },
 
             },
             'Roussillon': {
                 x: 1203,
                 y: 763,
 
-                tooltip: { content: "Руссильон" },
+                tooltip: { content: "Руссильон<br>Roussillon" },
 
             },
             'Valence': {
                 x: 1181,
                 y: 678,
 
-                tooltip: { content: "Валанс" },
+                tooltip: { content: "Валанс<br>Valence" },
 
             },
             'Avignon': {
                 x: 1179,
                 y: 759,
 
-                tooltip: { content: "Авиньон" },
+                tooltip: { content: "Авиньон<br>Avignon" },
 
             },
             'Marseilles': {
                 x: 1215,
                 y: 819,
 
-                tooltip: { content: "Марсель" },
+                tooltip: { content: "Марсель<br>Marseille" },
 
             },
             'Arles': {
                 x: 1168,
                 y: 785,
 
-                tooltip: { content: "Арль" },
+                tooltip: { content: "Арль<br>Arles" },
 
             },
             'Tarascon': {
                 x: 1167,
                 y: 776,
 
-                tooltip: { content: "Тараскон" },
+                tooltip: { content: "Тараскон<br>Tarascon" },
 
             },
             'Montpellier': {
                 x: 1114,
                 y: 791,
 
-                tooltip: { content: "Монпелье" },
+                tooltip: { content: "Монпелье<br>Montpellier" },
 
             },
             'Carcasson': {
                 x: 1019,
                 y: 827,
 
-                tooltip: { content: "Каркассон" },
+                tooltip: { content: "Каркассон<br>Carcassonne" },
 
             },
             'Toulouse': {
                 x: 963,
                 y: 792,
 
-                tooltip: { content: "Тулуза" },
+                tooltip: { content: "Тулуза<br>Toulouse" },
 
             },
             'Villers-Cottere': {
                 x: 1067,
                 y: 277,
 
-                tooltip: { content: "Вилле-Коттре" },
+                tooltip: { content: "Вилле-Коттре<br>Villers-Cotterets" },
 
             },
             'Chiry-Ourscamp': {
                 x: 1053,
                 y: 251,
 
-                tooltip: { content: "Шири-Урскан" },
+                tooltip: { content: "Шири-Урскан<br>Chiry-Ourscamp'" },
 
             },
             'Soissons': {
                 x: 1079,
                 y: 268,
 
-                tooltip: { content: "Суассон" },
+                tooltip: { content: "Суассон<br>Soissons" },
 
             },
             'Kompen': {
                 x: 1045,
                 y: 263,
 
-                tooltip: { content: "Компьень" },
+                tooltip: { content: "Компьень<br>Compiegne" },
 
             },
             'Senlis': {
                 x: 1036,
                 y: 281,
 
-                tooltip: { content: "Санлис" },
+                tooltip: { content: "Санлис<br>Senlis" },
 
             },
             'Mec': {
                 x: 1256,
                 y: 291,
 
-                tooltip: { content: "Мец" },
+                tooltip: { content: "Мец<br>Metz" },
 
             },
             'Plessis-lez-Tours': {
                 x: 909,
                 y: 448,
 
-                tooltip: { content: "Замок Плесси-Ле-Тур" },
+                tooltip: { content: "Замок Плесси-Ле-Тур<br>Plessis-lez-Tours" },
 
             },
             'Biron': {
                 x: 926,
                 y: 694,
 
-                tooltip: { content: "Замок Бирон" },
+                tooltip: { content: "Замок Бирон<br>Chateau de Biron" },
 
             },
             'Tonnay-Boutonne': {
                 x: 827,
                 y: 572,
 
-                tooltip: { content: "Палаточный лагерь близ Тонне-Бутонн" },
+                tooltip: { content: "Палаточный лагерь близ Тонне-Бутонн<br>Camp pres de Tonnay-Boutonne" },
 
             },
             'Saint-Jean-Anjeli': {
                 x: 841,
                 y: 578,
 
-                tooltip: { content: "Палаточный лагерь близ Сен-Жан-д’Анжели" },
+                tooltip: { content: "Палаточный лагерь близ Сен-Жан-д’Анжели<br>Camp pres de Saint-Jean-d'Angely" },
 
             },
             'Angers': {
                 x: 838,
                 y: 445,
 
-                tooltip: { content: "Анжерский замок" },
+                tooltip: { content: "Анжерский замок<br>Chateau d'Angers" },
 
             },
             'Chateaubriant': {
                 x: 783,
                 y: 421,
 
-                tooltip: { content: "Шатобриан" },
+                tooltip: { content: "Шатобриан<br>Chateaubriant" },
 
             },
             'Argentan': {
                 x: 869,
                 y: 328,
 
-                tooltip: { content: "Аржантан" },
+                tooltip: { content: "Аржантан<br>Argentan" },
 
             },
             'Blua': {
                 x: 954,
                 y: 432,
 
-                tooltip: { content: "Замок Блуа" },
+                tooltip: { content: "Замок Блуа<br>Chateau de Blois" },
 
             },
             'Houssay': {
                 x: 889,
                 y: 463,
 
-                tooltip: { content: "Замок Уссе" },
+                tooltip: { content: "Замок Уссе<br>Chateau de Houssay" },
 
             },
             'Amboise': {
                 x: 932,
                 y: 447,
 
-                tooltip: { content: "Амбуазский замок" },
+                tooltip: { content: "Амбуазский замок<br>Chateau d'Amboise" },
 
             },
             'Yvelines': {
                 x: 981,
                 y: 325,
 
-                tooltip: { content: "Сен-Лежер-ан-Ивлин" },
+                tooltip: { content: "Сен-Лежер-ан-Ивлин<br>Saint-Leger-en-Yvelines" },
 
             },
             'Lesigny': {
                 x: 1040,
                 y: 327,
 
-                tooltip: { content: "Лезиньи" },
+                tooltip: { content: "Лезиньи<br>Lesigny" },
 
             }
         }
