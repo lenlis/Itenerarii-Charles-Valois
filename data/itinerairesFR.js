@@ -1,6 +1,6 @@
-PDate='Date :';
-PPlace='Lieu :';
-PSource='Archives :';
+PDate='Date: ';
+PPlace='Lieu: ';
+PSource='Archives: ';
 
 var dictionary = {
   'Chateau de Fontainebleau': 'Fontenblo', 
