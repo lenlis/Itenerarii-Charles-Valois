@@ -31,7 +31,7 @@ header{
 .navigation-list{
 	display: flex;
     height: 100px;
-	justify-content: space-between;
+	justify-content: center;
     align-items:center;
 	margin: 0;
 	padding: 0;
@@ -41,8 +41,7 @@ header{
 
 } 
 .navigation-list-item{
-	margin-top: auto;
-	margin-bottom: auto; 
+	margin: auto 6rem;
 	font-size: 16px;
 	/* line-height: 18px; */
 	line-height: 1.125em;
@@ -80,9 +79,13 @@ header{
 .logo-items-a{
     display: grid;
     position: relative;
-    right: 8px;
+    right: 15px;
     justify-items: center;
     gap: 5px;
+}
+
+.logo-items-a-FR{
+    right: 30px;
 }
 
 /* Основное содержание */
