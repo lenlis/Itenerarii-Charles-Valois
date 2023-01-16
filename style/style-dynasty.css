@@ -49,6 +49,31 @@ header{
 	color:inherit;
 	text-decoration: none;
 }
+
+.button-animation{
+    position: relative;
+	display: block;
+}
+
+.button-animation::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: -5%;
+	width: 110%;
+	height: 0.1em;
+	background-color: white;
+	transition: opacity 300ms, transform 300ms;
+	opacity: 1;
+  	transform: scale(0);
+  	transform-origin: center;
+  }
+  
+.button-animation:hover::after,
+.button-animation:focus::after {
+	transform: scale(1);
+}
+
 .logo-items-a{
     display: grid;
     position: relative;
@@ -139,10 +164,27 @@ h2{
     line-height: 36px;
     padding: 10px 40px;
     border: 1px solid #FFFFFF;
+    transition: all 500ms ease;
+}
+
+.back a:hover {
+	background: #FFFFFF;
+	color: #222222;
 }
 /* Подвал */
 footer{
     font-size: 10px;
 	line-height: 11px;
 	letter-spacing: 0.25em;
+}
+
+/* Запрет выделения */
+.no-select{
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }

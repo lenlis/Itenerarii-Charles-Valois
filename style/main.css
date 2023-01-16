@@ -173,6 +173,8 @@ header{
 .navigation-list{
 	display: flex;
 	justify-content: space-between;
+	list-style: none;
+	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 	width: 60%;
@@ -181,7 +183,6 @@ header{
 
 } 
 .navigation-list-item{
-
 	margin-top: auto;
 	margin-bottom: auto; 
 	font-size: 16px;
@@ -190,9 +191,30 @@ header{
 	list-style-type: none;
 }
 .navigation-list a{
+	position: relative;
+	display: block;
 	color:inherit;
 	text-decoration: none;
 }
+
+.button-animation::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: -5%;
+	width: 110%;
+	height: 0.1em;
+	background-color: white;
+	transition: opacity 300ms, transform 300ms;
+	opacity: 1;
+  	transform: scale(0);
+  	transform-origin: center;
+  }
+  
+.button-animation:hover::after,
+.button-animation:focus::after {
+	transform: scale(1);
+  }
 
 .language{
 	display: flex;
@@ -215,6 +237,12 @@ button{
 	padding:5px;
 	gap: 5px;
 }
+
+.language-button{
+	position: relative;
+}
+
+
 
 /* Событие */
 .event_num{
@@ -504,3 +532,13 @@ button{
 	z-index: 1080;
 }
 
+/* Запрет выделения */
+.no-select{
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
