@@ -213,6 +213,7 @@ footer{
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
+<<<<<<< HEAD
 /* Попап событие */
 .popup-event{
 	display: none;
@@ -332,4 +333,28 @@ footer{
 	font-size: 12px;
 	line-height: 14px;
 	letter-spacing: 0.75em;
+=======
+.language{
+	display: flex;
+	position: absolute;
+	top: 37%;
+	right: 5%;
+	gap: 10px;
+	z-index: 1100;
+}
+.language li{
+	list-style-type: none;
+	font-size: 20px;
+	/* line-height: 23px; */
+	line-height: 1.15em;
+}
+.language  a{
+	display: flex;
+	text-decoration: none;
+	background-color:rgba(255, 255, 255, 0.0);
+	border:0px;
+	color: #FFFFFF;
+	padding:5px;
+	gap: 5px;
+>>>>>>> 8c2a5b0194e35b41d07ed7c8cb0c529316c61318
 }
