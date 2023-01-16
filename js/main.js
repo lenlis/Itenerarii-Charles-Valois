@@ -45,7 +45,7 @@ let popup_event = document.querySelector('.popup-event');
 $('.events').on('click', function () {
   document.getElementById('popup-event').style = "display: block";
 })
-$('.events-exit').on('click', function () {
+$('.popup-event-button-exit').on('click', function () {
   document.getElementById('popup-event').style = "display: none";
 })
 //Перемещение
