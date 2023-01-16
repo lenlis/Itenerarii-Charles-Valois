@@ -13,10 +13,13 @@ body {
 
 /* Шапка сайта */
 header{
+    position: fixed;
+    top: 0;
 	height: 100px;
 	width: 100%;
 	margin: 0;  
-	background: rgba(255, 255, 255, 0.05);
+    z-index: 1000;
+	background: rgba(22, 22, 22, 0.7);
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .navigation-list{
@@ -82,7 +85,7 @@ h1 {
     line-height: 109px;
     font-weight: 400;
     margin: 0;
-    margin-top: 75px;
+    margin-top: 100px;
     margin-bottom: 35px;
 } 
 
