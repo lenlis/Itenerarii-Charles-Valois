@@ -254,6 +254,7 @@ div.center .line{
 	top: 37%;
 	right: 5%;
 	gap: 10px;
+	z-index: 1100;
 }
 .language li{
 	list-style-type: none;
@@ -261,6 +262,16 @@ div.center .line{
 	/* line-height: 23px; */
 	line-height: 1.15em;
 }
+.language  a{
+	display: flex;
+	text-decoration: none;
+	background-color:rgba(255, 255, 255, 0.0);
+	border:0px;
+	color: #FFFFFF;
+	padding:5px;
+	gap: 5px;
+}
+
 button{
 	display: flex;
 	background-color:rgba(255, 255, 255, 0.0);
