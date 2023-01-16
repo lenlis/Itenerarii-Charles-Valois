@@ -194,17 +194,7 @@ footer{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 9f1a0dc (Добавил проект + кнопки смены языков на страницах)
-=======
-
->>>>>>> b6f8e3cf5168c3d62a175caf10f626615b56091b
 .language{
 	display: flex;
 	position: absolute;
@@ -227,9 +217,7 @@ footer{
 	color: #FFFFFF;
 	padding:5px;
 	gap: 5px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+}
 /* Попап событие */
 .popup-event{
 	display: none;
@@ -349,14 +337,9 @@ footer{
 	font-size: 12px;
 	line-height: 14px;
 	letter-spacing: 0.75em;
->>>>>>> 5c73734 (добавлены события)
+
 }
-=======
->>>>>>> cce793c (убраны события)
-=======
-=======
->>>>>>> b6f8e3cf5168c3d62a175caf10f626615b56091b
-}
+
 
 button{
 	display: flex;
@@ -370,8 +353,3 @@ button{
 .language-button{
 	position: relative;
 }
-
-<<<<<<< HEAD
->>>>>>> 9f1a0dc (Добавил проект + кнопки смены языков на страницах)
-=======
->>>>>>> b6f8e3cf5168c3d62a175caf10f626615b56091b

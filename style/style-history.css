@@ -262,9 +262,7 @@ footer{
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /* Попап событие */
 .popup-event{
 	display: none;
@@ -385,11 +383,7 @@ footer{
 	line-height: 14px;
 	letter-spacing: 0.75em;
 }
-=======
->>>>>>> cce793c (убраны события)
-=======
-=======
->>>>>>> b6f8e3cf5168c3d62a175caf10f626615b56091b
+
 .language{
 	display: flex;
 	position: absolute;
@@ -427,7 +421,3 @@ button{
 	position: relative;
 }
 
-<<<<<<< HEAD
->>>>>>> 9f1a0dc (Добавил проект + кнопки смены языков на страницах)
-=======
->>>>>>> b6f8e3cf5168c3d62a175caf10f626615b56091b
