@@ -195,8 +195,12 @@ footer{
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
+=======
+
+>>>>>>> 9f1a0dc (Добавил проект + кнопки смены языков на страницах)
 .language{
 	display: flex;
 	position: absolute;
@@ -219,6 +223,7 @@ footer{
 	color: #FFFFFF;
 	padding:5px;
 	gap: 5px;
+<<<<<<< HEAD
 =======
 /* Попап событие */
 .popup-event{
@@ -343,3 +348,20 @@ footer{
 }
 =======
 >>>>>>> cce793c (убраны события)
+=======
+}
+
+button{
+	display: flex;
+	background-color:rgba(255, 255, 255, 0.0);
+	border:0px;
+	color: #FFFFFF;
+	padding:5px;
+	gap: 5px;
+}
+
+.language-button{
+	position: relative;
+}
+
+>>>>>>> 9f1a0dc (Добавил проект + кнопки смены языков на страницах)
