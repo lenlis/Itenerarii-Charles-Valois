@@ -87,25 +87,7 @@ header{
 .logo-items-a-FR{
     right: 30px;
 }
-.events{
-	position: relative;
-	display: block;
-	color:inherit;
-	text-decoration: none;
-	font-size: 16px;
-	line-height: 1.125em;
-	font-family: 'Georgia';
-	font-style: normal;
-    font-weight: 400;
-}
-button{
-	display: flex;
-	background-color:rgba(255, 255, 255, 0.0);
-	border:0px;
-	color: #FFFFFF;
-	padding:5px;
-	gap: 5px;
-}
+
 /* Основное содержание */
 h1 {
     font-size: 96px;
@@ -212,6 +194,7 @@ footer{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 .language{
@@ -358,3 +341,5 @@ footer{
 	letter-spacing: 0.75em;
 >>>>>>> 5c73734 (добавлены события)
 }
+=======
+>>>>>>> cce793c (убраны события)
