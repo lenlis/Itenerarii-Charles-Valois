@@ -452,6 +452,7 @@ button{
 	bottom: 32px;
 	background: #ffffff;
 	border-radius: 50%; 
+	cursor: pointer;
 }
 
 
@@ -469,6 +470,7 @@ button{
 	bottom: 0px;
 	background: #ffffff;
 	border-radius: 50%; 
+	cursor: pointer;
 }
 
 .popup-event-listEvent .line{
