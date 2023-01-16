@@ -162,9 +162,17 @@ function UpdateEvent() {
 
 // слайдер событий
 var slideNow = 1;
+var prevBtn = 0;
 var slideCount = $('.slidewrapper').children().length;
 var navBtnId = 0;
 $('.slide-nav-btn').click(function() {
+  (this).style = "background: #3a7bfc";
+  if(prevBtn != 0){
+    prevBtn.style = "background: #ffffff";
+  }
+  else{ if((this).id = 1){
+    prevBtn.style = "background: #ffffff";
+  }}
   navBtnId = parseInt((this).id);
   console.log(parseInt((this).id))
   if (navBtnId + 1 != slideNow) {
@@ -174,6 +182,7 @@ $('.slide-nav-btn').click(function() {
           '-webkit-transform': 'translate(' + translateWidth + 'px, 0)',
           '-ms-transform': 'translate(' + translateWidth + 'px, 0)',
       });
-      slideNow = navBtnId + 1;
+      slideNow = navBtnId + 1;   
   }
+  prevBtn = (this);
 });
