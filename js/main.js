@@ -16,6 +16,7 @@ $('.mapcontainer').on('mouseenter', function () {
 }).on('mouseleave', function () {
   $.scrollify.enable();
 });
+
 //анимация header
 const map_header = document.querySelector('.map-header');
 map_header.classList.remove('opacity-animation');
@@ -35,10 +36,18 @@ observer.observe(document.querySelector('.map-header'));
 var openFlag = false;
 let popup = document.querySelector('.popup');
 $('.event').on('click', function () {
-  document.getElementById('popup').style = "display: block";
+  if(popup.classList.contains('is-hidden'))
+  {
+    popup.classList.remove('is-hidden')
+  }
+  popup.classList.add('is-visible');
+  $.scrollify.disable();
 })
 $('.button-exit').on('click', function () {
-  document.getElementById('popup').style = "display: none";
+  popup.classList.add('is-hidden');
+  window.setTimeout(function() {
+    popup.classList.remove('is-visible')}, 250)
+    $.scrollify.enable();
 })
 //События
 let popup_event = document.querySelector('.popup-event');
@@ -48,11 +57,13 @@ $('.events').on('click', function () {
     popup_event.classList.remove('is-hidden')
   }
   popup_event.classList.add('is-visible');
+  $.scrollify.disable();
 })
 $('.popup-event-button-exit').on('click', function () {
   popup_event.classList.add('is-hidden');
   window.setTimeout(function() {
     popup_event.classList.remove('is-visible')}, 250)
+    $.scrollify.enable();
 })
 //Перемещение
 var previous_plot = lines[0]['Место пребывания'];
