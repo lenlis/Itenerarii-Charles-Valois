@@ -5,7 +5,7 @@ PSource='Истчоник: ';
 
 var dictionary = {
   'Замок Фонтенбло': 'Fontenblo', 
-  'Париж; Лувр': 'Louvre',
+  'Париж, Лувр': 'Louvre',
   'Бурж': 'Bourges', 
   'Божанси': 'Beaugency', 
   'Замок Жьен': 'Gien', 
