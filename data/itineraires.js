@@ -1,7 +1,7 @@
 
 PDate='Дата пребывания: ';
 PPlace='Место пребывания: ';
-PSource='Истчоник: ';
+PSource='Источник: ';
 
 var dictionary = {
   'Замок Фонтенбло': 'Fontenblo', 
