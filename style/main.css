@@ -282,6 +282,10 @@ button {
 	gap: 5px;
 }
 
+.navigation-list button{
+	padding: 0;
+}
+
 .language-button {
 	position: relative;
 }
