@@ -88,35 +88,35 @@ lines = [
     "Дата пребывания": "Mars 1561",
     "Место пребывания": "Chateau de Fontainebleau",
     "Источник": "Lettre au duc d'Etampes, gouverneur de Bretagne / Bibliotheque nationale russe. Departement des manuscrits. Collection de P.P. Dubrovsky. Autographe 17,  31.",
-    "Номер": 1
+    "Номер": 5
   },
   {
     "Имя монарха": "Charles IX",
     "Дата пребывания": "3 avril 1561",
     "Место пребывания": "Chateau de Fontainebleau",
     "Источник": "Lettre au comte de Tende, gouverneur de Provence / Bibliotheque nationale russe. Departement des manuscrits. Collection de P.P. Dubrovsky. Autographe 17,  32.",
-    "Номер": 1
+    "Номер": 6
   },
   {
     "Имя монарха": "Charles IX",
     "Дата пребывания": "3 avril 1561",
     "Место пребывания": "Chateau de Fontainebleau",
     "Источник": "Lettre au comte de Joyeuse, gouverneur general du Languedoc / Bibliotheque nationale russe. Departement des manuscrits. Collection de P.P. Dubrovsky. Autographe 17,  38.",
-    "Номер": 2
+    "Номер": 7
   },
   {
     "Имя монарха": "Charles IX, Catherine de Medicis",
     "Дата пребывания": "Mi-avril 1561",
     "Место пребывания": "Chateau de Fontainebleau",
     "Источник": "Lettre a Fernando Alvarez de Toledo, duc d'Alba / Bibliotheque nationale russe. Departement des manuscrits. Collection de P.P. Dubrovsky. Autographe 17,  39.",
-    "Номер": 3
+    "Номер": 8
   },
   {
     "Имя монарха": "Charles IX",
     "Дата пребывания": "28 avril 1561",
     "Место пребывания": "Chateau de Fontainebleau",
     "Источник": "Lettre au gouverneur general du Piemont, seigneur de Bourdillon / Bibliotheque nationale russe. Departement des manuscrits. Collection de P.P. Dubrovsky. Autographe 21/1,  1.",
-    "Номер": 4
+    "Номер": 9
   },
   {
     "Имя монарха": "Charles IX",
@@ -218,17 +218,10 @@ lines = [
   },
   {
     "Имя монарха": "Charles IX",
-    "Дата пребывания": "Mai 1562",
-    "Место пребывания": "Inconnu",
-    "Источник": "Instructions au gouverneur general de Guinee, seigneur de Bury / Bibliotheque nationale russe. Departement des manuscrits. Collection de P.P. Dubrovsky. Autographe 21/2,  73.",
-    "Номер": 1
-  },
-  {
-    "Имя монарха": "Charles IX",
     "Дата пребывания": "26 juin 1562",
     "Место пребывания": "Beaugency",
     "Источник": "Instructions au seigneur de Saintneterre pour qu'il soit envoye en Provence, en Lyonne et dans le Dauphine / Bibliotheque nationale russe. Departement des manuscrits. Collection de P.P. Dubrovsky. Autographe 21/1,  61.",
-    "Номер": 1
+    "Номер": ""
   },
   {
     "Имя монарха": "Charles IX",
