@@ -66,14 +66,14 @@ lines = [
     "Имя монарха": "Charles IX",
     "Дата пребывания": "17 mars 1561",
     "Место пребывания": "Chateau de Fontainebleau",
-    "Источник": "Lettre a Jeanne d'Autriche / Bibliotheque nationale russe. Departement des manuscrits. Collection de P.P. Dubrovsky. Autographe 110,  21.",
+    "Источник": "Lettre à Jeanne d'Autriche / Bibliothèque nationale russe. Département des manuscrits. Collection de P.P. Dubrovsky. Autographe 110, № 21.Publication : Falgairolle, 1897. P. 95.",
     "Номер": 2
   },
   {
     "Имя монарха": "Charles IX",
     "Дата пребывания": "17 mars 1561",
     "Место пребывания": "Chateau de Fontainebleau",
-    "Источник": "Lettre a Catherine d'Autriche / Bibliotheque nationale russe. Departement des manuscrits. Collection de P.P. Dubrovsky. Autographe 110,  22.",
+    "Источник": "Lettre à Catherine d'Autriche / Bibliothèque nationale russe. Département des manuscrits. Collection de P.P. Dubrovsky. Autographe 110, № 22./Publication : Falgairolle, 1897. P. 96.",
     "Номер": 3
   },
   {
