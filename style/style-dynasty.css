@@ -183,6 +183,9 @@ footer{
 	line-height: 11px;
 	letter-spacing: 0.25em;
 }
+.main-footer-one{
+	text-align: center;
+}
 
 /* Запрет выделения */
 .no-select{
