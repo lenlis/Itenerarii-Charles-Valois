@@ -66,49 +66,49 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "17 mars 1561",
     "Место пребывания": "Château de Fontainebleau",
-    "Источник": "Lettre à Jeanne d'Autriche / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 110, № 21. / Publication : Falgairolle, 1897. P. 95.",
+    "Источник": "Lettre à Jeanne d'Autriche / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 110, № 21.; Publication: Falgairolle, 1897. P. 95.",
     "Номер": "2"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "17 mars 1561",
     "Место пребывания": "Château de Fontainebleau",
-    "Источник": "Lettre à Catherine d'Autriche / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 110, № 22. / Publication : Falgairolle, 1897. P. 96.",
+    "Источник": "Lettre à Catherine d'Autriche / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 110, № 22.; Publication: Falgairolle, 1897. P. 96.",
     "Номер": "3"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "17 mars 1561",
     "Место пребывания": "Château de Fontainebleau",
-    "Источник": "Lettre à Henri, cardinal de Portugal / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 110, № 23. / Publication : Falgairolle, 1897. P. 97.",
+    "Источник": "Lettre à Henri, cardinal de Portugal / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 110, № 23.; Publication: Falgairolle, 1897. P. 97.",
     "Номер": "4"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Mars 1561",
     "Место пребывания": "Château de Fontainebleau",
-    "Источник": "Lettre au duc d'Etampes, gouverneur de Bretagne / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 31. / Publication : Lublinskaya, 1962. P. 21–22.",
+    "Источник": "Lettre au duc d'Etampes, gouverneur de Bretagne / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 31.; Publication: Lublinskaya, 1962. P. 21–22.",
     "Номер": "5"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "3 avril 1561",
     "Место пребывания": "Château de Fontainebleau",
-    "Источник": "Lettre au comte de Tende, gouverneur de Provence / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 32. / Publication : Lublinskaya, 1962. P. 23–24.",
+    "Источник": "Lettre au comte de Tende, gouverneur de Provence / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 32.; Publication: Lublinskaya, 1962. P. 23–24.",
     "Номер": "6"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "3 avril 1561",
     "Место пребывания": "Château de Fontainebleau",
-    "Источник": "Lettre au comte de Joyeuse, gouverneur général du Languedoc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 38. / Publication : Lublinskaya, 1962. P. 24–26.",
+    "Источник": "Lettre au comte de Joyeuse, gouverneur général du Languedoc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 38.; Publication: Lublinskaya, 1962. P. 24–26.",
     "Номер": "7"
   },
   {
     "Дата пребывания": "Charles IX, Catherine de Médicis",
     "Дата пребывания": "Mi-avril 1561",
     "Место пребывания": "Château de Fontainebleau",
-    "Источник": "Lettre à Fernando Alvarez de Toledo, duc d'Alba / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 39. / Publication : LCM. T. 1. P. 188-191.",
+    "Источник": "Lettre à Fernando Alvarez de Toledo, duc d'Alba / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 39.; Publication: LCM. T. 1. P. 188-191.",
     "Номер": "8"
   },
   {
@@ -136,7 +136,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "26 octobre 1561",
     "Место пребывания": "Château de Saint-Germain-en-Laye",
-    "Источник": "Lettre au gouverneur général de Guinée, Burie / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 64. / Publication : Lublinskaya, 1962. P. 178–180",
+    "Источник": "Lettre au gouverneur général de Guinée, Burie / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 64.; Publication: Lublinskaya, 1962. P. 178–180",
     "Номер": "2"
   },
   {
@@ -150,14 +150,14 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "8 mai 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Instruction au seigneur de Negrepellis, envoyé comme commissaire royal en Guyenne et Languedoc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 65. / Publication : Lublinskaya, 1962. P. 47–50.",
+    "Источник": "Instruction au seigneur de Negrepellis, envoyé comme commissaire royal en Guyenne et Languedoc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 65.; Publication: Lublinskaya, 1962. P. 47–50.",
     "Номер": "1"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "8 mai 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre au Parlement de Toulouse / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 5. / Publication : Lublinskaya, 1962. P. 50–51.",
+    "Источник": "Lettre au Parlement de Toulouse / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 5.; Publication: Lublinskaya, 1962. P. 50–51.",
     "Номер": "2"
   },
   {
@@ -185,7 +185,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "8 ou 9 mai 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre au vicomte de Martigues / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 3. / Publication : Lublinskaya, 1962. P. 62–63.",
+    "Источник": "Lettre au vicomte de Martigues / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 3.; Publication: Lublinskaya, 1962. P. 62–63.",
     "Номер": "6"
   },
   {
@@ -206,14 +206,14 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Première quinzaine de mai 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre à la municipalité de La Rochelle / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 52. / Publication : Lublinskaya, 1962. P. 63–64.",
+    "Источник": "Lettre à la municipalité de La Rochelle / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 52.; Publication: Lublinskaya, 1962. P. 63–64.",
     "Номер": "9"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Première quinzaine de mai 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Mémoire (mémorandum) aux gouverneurs généraux de Guyenne, seigneur de Burie et seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 62. / Publication : Lublinskaya, 1962. P. 57–59.",
+    "Источник": "Mémoire (mémorandum) aux gouverneurs généraux de Guyenne, seigneur de Burie et seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 62.; Publication: Lublinskaya, 1962. P. 57–59.",
     "Номер": "10"
   },
   {
@@ -283,14 +283,14 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "21 octobre 1562",
     "Место пребывания": "Camp près de Rouen",
-    "Источник": "Lettre au capitaine de Losse / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 58. / Publication : Lublinskaya, 1962. P. P. 172–174.",
+    "Источник": "Lettre au capitaine de Losse / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 58.; Publication: Lublinskaya, 1962. P. P. 172–174.",
     "Номер": "3"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "21 octobre 1562",
     "Место пребывания": "Camp près de Rouen",
-    "Источник": "Lettre au capitaine de La Brosse / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 59. / Publication : Lublinskaya, 1962. P. 174–176.",
+    "Источник": "Lettre au capitaine de La Brosse / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 59.; Publication: Lublinskaya, 1962. P. 174–176.",
     "Номер": "4"
   },
   {
@@ -304,7 +304,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "24 octobre 1562",
     "Место пребывания": "Camp près de Rouen",
-    "Источник": "Lettre à l'ambassadeur de France en Espagne, évêque de Limoges / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 86, № 33. / Publication (partiellement) : La Ferrière, 1867. P. 23-24.",
+    "Источник": "Lettre à l'ambassadeur de France en Espagne, évêque de Limoges / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 86, № 33.; Publication (partiellement) : La Ferrière, 1867. P. 23-24.",
     "Номер": "6"
   },
   {
@@ -325,28 +325,28 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Première décennie de novembre 1562",
     "Место пребывания": "Camp près de Rouen",
-    "Источник": "Lettre au duc de Montpensier, commissaire royal en Guyane / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 55. / Publication : Lublinskaya, 1962. P. 195–199.",
+    "Источник": "Lettre au duc de Montpensier, commissaire royal en Guyane / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 55.; Publication: Lublinskaya, 1962. P. 195–199.",
     "Номер": "9"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "20 novembre 1562",
     "Место пребывания": "Château de Vincennes",
-    "Источник": "Lettre à l'ambassadeur de France en Espagne, seigneur de Saint-Sulpice / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 111, № 19. / Publication (partiellement) : LCM. T. I. P. 436.",
+    "Источник": "Lettre à l'ambassadeur de France en Espagne, seigneur de Saint-Sulpice / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 111, № 19.; Publication (partiellement) : LCM. T. I. P. 436.",
     "Номер": "1"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Deuxième quinzaine de novembre 1562",
     "Место пребывания": "Château de Vincennes",
-    "Источник": "Lettre au gouverneur général de Guinée Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 63. / Publication : Lublinskaya, 1962. P. 193–195.",
+    "Источник": "Lettre au gouverneur général de Guinée Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 63.; Publication: Lublinskaya, 1962. P. 193–195.",
     "Номер": "2"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "23 décembre 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre à l'ambassadeur de France en Espagne, seigneur de Saint-Sulpice / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 111, № 17. / Publication : LCM. T. I. P. 453-454.",
+    "Источник": "Lettre à l'ambassadeur de France en Espagne, seigneur de Saint-Sulpice / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 111, № 17.; Publication: LCM. T. I. P. 453-454.",
     "Номер": "1"
   },
   {
@@ -375,7 +375,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "10 janvier 1563",
     "Место пребывания": "Chartres",
-    "Источник": "Lettre au cardinal de Lorraine / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 86, № 6. / Publication (partiellement) : Lublinskaya, 1962. P. 216–217.",
+    "Источник": "Lettre au cardinal de Lorraine / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 86, № 6.; Publication (partiellement) : Lublinskaya, 1962. P. 216–217.",
     "Номер": ""
   },
   {
@@ -417,7 +417,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "19-26 mai 1563",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre au gouverneur général de Guyenne, seigneur de Montluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 7. / Publication : Lublinskaya, 1962. P. 248–250.",
+    "Источник": "Lettre au gouverneur général de Guyenne, seigneur de Montluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 7.; Publication: Lublinskaya, 1962. P. 248–250.",
     "Номер": ""
   },
   {
@@ -438,28 +438,28 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "8 juin 1563",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre aux échevins et conseillers de la municipalité de Paris / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 8. / Publication : Lublinskaya, 1962. P. 267–269.",
+    "Источник": "Lettre aux échevins et conseillers de la municipalité de Paris / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 8.; Publication: Lublinskaya, 1962. P. 267–269.",
     "Номер": ""
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "4 juin 1563",
     "Место пребывания": "Mantes",
-    "Источник": "Instructions aux officiels royaux / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 9, 10. / Publication : Lublinskaya, 1962. P. 279–284.",
+    "Источник": "Instructions aux officiels royaux / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 9, 10.; Publication: Lublinskaya, 1962. P. 279–284.",
     "Номер": ""
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "13 juin 1563",
     "Место пребывания": "Château de Vincennes",
-    "Источник": "Ordre à Guillaume de Marle, marchand prévost, et aux échevins de Paris / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, №№ 15, 16, 41. / Publication : Lublinskaya, 1962. P. 269–270.",
+    "Источник": "Ordre à Guillaume de Marle, marchand prévost, et aux échevins de Paris / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, №№ 15, 16, 41.; Publication: Lublinskaya, 1962. P. 269–270.",
     "Номер": "1"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Juin 1563",
     "Место пребывания": "Château de Vincennes",
-    "Источник": "Lettre au gouverneur général de Guyenne, seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 23. / Publication : Lublinskaya, 1962. P. 276–279.",
+    "Источник": "Lettre au gouverneur général de Guyenne, seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 23.; Publication: Lublinskaya, 1962. P. 276–279.",
     "Номер": "2"
   },
   {
@@ -508,35 +508,35 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "23 octobre 1563",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Règlement du Conseil du Roy / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 20. / Publication : Lublinskaya, 1962. P. 325–327.",
+    "Источник": "Règlement du Conseil du Roy / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 20.; Publication: Lublinskaya, 1962. P. 325–327.",
     "Номер": "1"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Octobre 1563",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Liste des membres du Conseil du Roy / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 34/2, № 32. / Publication : Lublinskaya, 1962. P. 328–329.",
+    "Источник": "Liste des membres du Conseil du Roy / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 34/2, № 32.; Publication: Lublinskaya, 1962. P. 328–329.",
     "Номер": "2"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Deuxième quinzaine de novembre – décembre 1563",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre à Christophe de Thou, premier président du Parlement de Paris / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 13А. / Publication : Lublinskaya, 1962. P. 345.",
+    "Источник": "Lettre à Christophe de Thou, premier président du Parlement de Paris / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 13А.; Publication: Lublinskaya, 1962. P. 345.",
     "Номер": "3"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "7–23 décembre 1563",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Instructions pour que le baron de Biron se rende en Provence / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 78, № 3. / Publication (partiellement) : Barthélemy, 1874. P. 6-10.",
+    "Источник": "Instructions pour que le baron de Biron se rende en Provence / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 78, № 3.; Publication (partiellement) : Barthélemy, 1874. P. 6-10.",
     "Номер": "4"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "22 décembre 1563",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre au seigneur de Danville-Montmorency, gouverneur du Languedoc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 18. / Publication : Lublinskaya, 1962. P. 341–344.",
+    "Источник": "Lettre au seigneur de Danville-Montmorency, gouverneur du Languedoc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 18.; Publication: Lublinskaya, 1962. P. 341–344.",
     "Номер": "5"
   },
   {
@@ -585,7 +585,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "6 octobre 1564",
     "Место пребывания": "Avignon",
-    "Источник": "La certification de l'accord entre le nonce apostolique, Fabrizio Serbelloni, et le capitaine-gouverneur d'Orange, Antoine de Wolfang / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 98/2, № 59. / Publication : Recueil des traitez de paix, 1700. P. 320-321.",
+    "Источник": "La certification de l'accord entre le nonce apostolique, Fabrizio Serbelloni, et le capitaine-gouverneur d'Orange, Antoine de Wolfang / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 98/2, № 59.; Publication: Recueil des traitez de paix, 1700. P. 320-321.",
     "Номер": "1"
   },
   {
@@ -669,7 +669,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "15 janvier 1565",
     "Место пребывания": "Carcassonne",
-    "Источник": "Instructions au seigneur de Sansay, chambellan du Roi, et au seigneur de Fontaines, valet de chambre du Roi / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 25. / Publication : De Vic, Vaissette. T. IX. 1845. P. 513-514.",
+    "Источник": "Instructions au seigneur de Sansay, chambellan du Roi, et au seigneur de Fontaines, valet de chambre du Roi / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 25.; Publication: De Vic, Vaissette. T. IX. 1845. P. 513-514.",
     "Номер": "1"
   },
   {
@@ -1334,7 +1334,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "1 avril 1569",
     "Место пребывания": "Metz",
-    "Источник": "Lettre à l'ambassadeur de France en Angleterre, seigneur de La Mothe-Fénelon / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 90/1, № 35. / Publication : La Mothe Fénélon. T. VII. 1840. P. 11-13.",
+    "Источник": "Lettre à l'ambassadeur de France en Angleterre, seigneur de La Mothe-Fénelon / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 90/1, № 35.; Publication: La Mothe Fénélon. T. VII. 1840. P. 11-13.",
     "Номер": "3"
   },
   {
