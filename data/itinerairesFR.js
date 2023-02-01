@@ -7,7 +7,7 @@ var dictionary = {
   'Paris, Louvre': 'Louvre',
   'Bourges': 'Bourges', 
   'Beaugency': 'Beaugency', 
-  'Gien': 'Gien', 
+  'Guyenne': 'Gien', 
   'Château de Saint-Germain-en-Laye': 'Saint-Germain', 
   'Bordeaux': 'Bordeaux', 
   'Mont-de-Marsan': 'Mont-de-Marsan', 
@@ -192,14 +192,14 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "10 mai 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre au gouverneur de Provence, comte de Tande / / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 24, № 13.",
+    "Источник": "Lettre au gouverneur de Provence, comte de Tende / / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 24, № 13.",
     "Номер": "7"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Première décennie de mai 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre aux capitaines : rheingraf Johann-Philipp von Salm, et seigneur de Malicorne / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 4.",
+    "Источник": "Lettre aux capitaines : Rheingraf Johann-Philipp von Salm, et seigneur de Malicorne / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 4.",
     "Номер": "8"
   },
   {
@@ -213,7 +213,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Première quinzaine de mai 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Mémoire (mémorandum) aux gouverneurs généraux de Guienne, seigneur de Burie et seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 62. / Publication : Lublinskaya, 1962. P. 57–59.",
+    "Источник": "Mémoire (mémorandum) aux gouverneurs généraux de Guyenne, seigneur de Burie et seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 62. / Publication : Lublinskaya, 1962. P. 57–59.",
     "Номер": "10"
   },
   {
@@ -254,7 +254,7 @@ lines = [
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "12 septembre 1562",
-    "Место пребывания": "Gien",
+    "Место пребывания": "Guyenne",
     "Источник": "Instructions au seigneur d'Escars et au seigneur de Selve pour négocier avec le roi Philippe II d'Espagne / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, №№ 66, 67.",
     "Номер": ""
   },
@@ -459,7 +459,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Juin 1563",
     "Место пребывания": "Château de Vincennes",
-    "Источник": "Lettre au gouverneur général de Guienne, seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 23. / Publication : Lublinskaya, 1962. P. 276–279.",
+    "Источник": "Lettre au gouverneur général de Guyenne, seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 23. / Publication : Lublinskaya, 1962. P. 276–279.",
     "Номер": "2"
   },
   {
@@ -550,7 +550,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "28 janvier 1564",
     "Место пребывания": "Château de Saint-Maur-des-Fossés",
-    "Источник": "Lettre au comte de Tande, gouverneur de Provence / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 17.",
+    "Источник": "Lettre au comte de Tende, gouverneur de Provence / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 17.",
     "Номер": ""
   },
   {
@@ -613,7 +613,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "21 novembre 1564",
     "Место пребывания": "Arles",
-    "Источник": "Lettre au gouverneur de Provence, Comte de Tande / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 26.",
+    "Источник": "Lettre au gouverneur de Provence, Comte de Tende / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 26.",
     "Номер": "2"
   },
   {
@@ -634,7 +634,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "4 décembre 1564",
     "Место пребывания": "Arles",
-    "Источник": "Lettre au gouverneur général de Guienne, seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 70.",
+    "Источник": "Lettre au gouverneur général de Guyenne, seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 70.",
     "Номер": "5"
   },
   {
@@ -795,14 +795,14 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Juillet 1566",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre au gouverneur général de Guienne, seigneur de Monluc/ BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 71А.",
+    "Источник": "Lettre au gouverneur général de Guyenne, seigneur de Monluc/ BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 71А.",
     "Номер": "3"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "9 août 1566",
     "Место пребывания": "Villers-Cotterêts",
-    "Источник": "Lettre au gouverneur général de Guienne, seigneur de Monluc/ BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 71B.",
+    "Источник": "Lettre au gouverneur général de Guyenne, seigneur de Monluc/ BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 71B.",
     "Номер": ""
   },
   {
@@ -816,7 +816,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "11 septembre 1566",
     "Место пребывания": "Soissons",
-    "Источник": "Lettre au gouverneur de Provence, Comte de Tande / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 36.",
+    "Источник": "Lettre au gouverneur de Provence, Comte de Tende / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 21/1, № 36.",
     "Номер": ""
   },
   {
@@ -879,7 +879,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "31 décembre 1566",
     "Место пребывания": "Château de Saint-Germain-en-Laye",
-    "Источник": "Instruction à l'abbé de Saint-Gildas, agent diplomatique / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 65, Авт. 21/1, № 24.",
+    "Источник": "Instruction à l'abbé de Saint-Gildas, agent diplomatique / BNR. Département des manuscrits. Coll. Pierre Dubrovsky Autographe 17, № 65, Autographe 21/1, № 24.",
     "Номер": "1"
   },
   {
