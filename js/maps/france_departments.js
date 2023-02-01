@@ -394,8 +394,8 @@ $(function () {
 
             },
             'Mont-de-Marsan': {
-                x: 848,
-                y: 770,
+                x: 846,
+                y: 769,
 
                 tooltip: { content: "Мон-Де-Марсан<br>Mont-de-Marsan" },
 
@@ -416,7 +416,7 @@ $(function () {
             },
             'Saint-Mor-de-Fosse': {
                 x: 1030,
-                y: 326,
+                y: 323,
 
                 tooltip: { content: "Сен-Мор-де-Фоссе<br>Saint-Maur-des-Fosses" },
 
@@ -442,11 +442,18 @@ $(function () {
                 tooltip: { content: "Венсеннский замок<br>Chateau de Vincennes" },
 
             },
-            'Orlean': {
+            'Orlean-camp': {
                 x: 994,
                 y: 401,
 
                 tooltip: { content: "Палаточный лагерь близ Орлеана<br>Camp de Saint Mesmin pres Orleans" },
+
+            },
+            'Orlean': {
+                x: 995,
+                y: 407,
+
+                tooltip: { content: "Орлеан<br>Orleans" },
 
             },
             'Trua': {
@@ -464,8 +471,8 @@ $(function () {
 
             },
             'Mant': {
-                x: 1186,
-                y: 641,
+                x: 979,
+                y: 307,
 
                 tooltip: { content: "Мант<br>Mantes" },
 
@@ -478,15 +485,15 @@ $(function () {
 
             },
             'Gaillon': {
-                x: 958,
-                y: 292,
+                x: 965,
+                y: 295,
 
-                tooltip: { content: "Замок Гайон<br>Chateau de Gaillon" },
+                tooltip: { content: "Замок Гэйон<br>Chateau de Gaillon" },
 
             },
             'Meulan': {
-                x: 1235,
-                y: 642,
+                x: 993,
+                y: 307,
 
                 tooltip: { content: "Замок Мелан<br>Chateau Meulan" },
 
@@ -577,7 +584,7 @@ $(function () {
             },
             'Soissons': {
                 x: 1079,
-                y: 268,
+                y: 271,
 
                 tooltip: { content: "Суассон<br>Soissons" },
 
@@ -678,6 +685,20 @@ $(function () {
                 y: 325,
 
                 tooltip: { content: "Сен-Лежер-ан-Ивлин<br>Saint-Leger-en-Yvelines" },
+
+            },
+            'Luvie': {
+                x: 902,
+                y: 238,
+
+                tooltip: { content: "Между Лувье и Феканом<br>Entre Louviers et Fécamp" },
+
+            },
+            'Bullon': {
+                x: 1015,
+                y: 316,
+
+                tooltip: { content: "Булонский замок<br>Сhâteau de Boulogne" },
 
             },
             'Lesigny': {
