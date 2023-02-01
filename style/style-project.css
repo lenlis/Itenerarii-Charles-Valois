@@ -191,6 +191,10 @@ footer{
 	letter-spacing: 0.25em;
 }
 
+.main-footer-one{
+	text-align: center;
+}
+
 /* Запрет выделения */
 .no-select{
 	-webkit-touch-callout: none; /* iOS Safari */

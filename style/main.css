@@ -658,7 +658,7 @@ figcaption{
 
 .main-footer {
 	position: absolute;
-	bottom: 20px;
+	bottom: 5px;
 	z-index: 1001;
 }
 
@@ -666,6 +666,10 @@ figcaption{
 	font-size: 10px;
 	line-height: 11px;
 	letter-spacing: 0.25em;
+}
+
+.main-footer-one{
+	text-align: center;
 }
 
 /* Стрелки навигации */
