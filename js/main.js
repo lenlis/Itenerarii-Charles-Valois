@@ -33,7 +33,7 @@ const observer = new IntersectionObserver(entries => {
 });
 observer.observe(document.querySelector('.map-header'));
 //Письмо
-var openFlag = false;
+let openFlag = false;
 let popup = document.querySelector('.popup');
 $('.event').on('click', function () {
   if(popup.classList.contains('is-hidden'))
@@ -66,12 +66,12 @@ $('.popup-event-button-exit').on('click', function () {
     $.scrollify.enable();
 })
 //Перемещение
-var previous_plot = lines[0]['Место пребывания'];
-var current_plot = -1;
+let previous_plot = lines[0]['Место пребывания'];
+let current_plot = -1;
 
 // current_plot = document.getElementById("DateSlider").value;
-var updatedOptions = { 'plots': {} };
-var prevSliderValue = 0;
+let updatedOptions = { 'plots': {} };
+let prevSliderValue = 0;
 document.getElementById("DateSlider").oninput = function () {
   if (!openFlag) {
     openFlag = true;
@@ -178,10 +178,10 @@ function UpdateEvent() {
 }
 
 // слайдер событий
-var slideNow = 1;
-var prevBtn = 0;
-var slideCount = $('.slidewrapper').children().length;
-var navBtnId = 0;
+let slideNow = 1;
+let prevBtn = 0;
+let slideCount = $('.slidewrapper').children().length;
+let navBtnId = 0;
 $('.slide-nav-btn').click(function() {
   (this).style = "background: #3a7bfc";
   if(prevBtn != 0){
