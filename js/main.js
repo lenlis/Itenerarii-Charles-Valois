@@ -108,7 +108,7 @@ $(".right").on('click', function () {
     openFlag = true;
     document.getElementById('event').style = "display: block";
   }
-  if (current_plot < 268) {
+  if (current_plot < 255) {
     current_plot = parseInt(current_plot)
     current_plot += 1;
     console.log(current_plot);
@@ -148,7 +148,7 @@ $('.left').on('click', function () {
         fill: "#3a7bfc"
       }
     };
-    if (current_plot < 268 && previous_plot != lines[current_plot]['Место пребывания']) {
+    if (current_plot < 255 && previous_plot != lines[current_plot]['Место пребывания']) {
       updatedOptions.plots[dictionary[previous_plot]] = {
         size: 15,
         attrs: {
