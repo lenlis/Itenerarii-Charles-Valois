@@ -17,9 +17,10 @@ var dictionary = {
   'Camp près de Châteaudun': 'Chateaudun', 
   'Camp près de Rouen': 'Rouen', 
   'Château de Vincennes': 'Vincennes', 
-  'Camp de Saint-Mesmin près d’Orleans': 'Orlean-camp', 
+  "Camp de Saint-Mesmin près d'Orleans": 'Orlean-camp', 
   'Orléans': 'Orlean', 
   'Troye': 'Trua', 
+  'Château de Monceaux': 'Monso', 
   "Entre Louviers et Fécamp": 'Luvie',
   "Сhâteau de Boulogne": 'Bullon',
   'Château de Chenonceau': 'Shenonso', 
@@ -384,7 +385,7 @@ lines = [
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "12 mars 1563",
-    "Место пребывания": "Camp de Saint-Mesmin près d’Orleans",
+    "Место пребывания": "Camp de Saint-Mesmin près d'Orleans",
     "Источник": "Lettre au gouverneur du Dauphiné, Prince de La Roche-sur-Yon / Institut d'histoire de Saint-Pétersbourg, Académie des sciences de Russie. Archives scientifiques et historiques. Section de l'Europe occidentale. Manuscrit 332. № 4.",
     "Номер": ""
   },
@@ -398,7 +399,7 @@ lines = [
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Mars 1563",
-    "Место пребывания": "Camp de Saint-Mesmin près d’Orleans",
+    "Место пребывания": "Camp de Saint-Mesmin près d'Orleans",
     "Источник": "Ordre circulaire aux municipalités des « bonnes villes » du domaine royal de maintenir l'ordre public. / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/1, № 43.",
     "Номер": ""
   },
@@ -437,7 +438,7 @@ lines = [
     "Источник": "Lettre au représentant français au Concile de Trente, seigneur de Lansac / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 98/2, № 37.",
     "Номер": "2"
   },
-  {
+    {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "4 juin 1563",
     "Место пребывания": "Mantes",
@@ -930,14 +931,14 @@ lines = [
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "21 septembre 1567",
-    "Место пребывания": "Château de Montceaux",
+    "Место пребывания": "Château de Monceaux",
     "Источник": "Registres des cadeaux du Roi / Musée historique de l'État (Moscou, Fédération de Russie). Département des sources écrites. Stock 3. Book 862 (3). Fol. 293r",
     "Номер": "1"
   },
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "24 septembre 1567",
-    "Место пребывания": "Château de Montceaux",
+    "Место пребывания": "Château de Monceaux",
     "Источник": "Registres des cadeaux du Roi / Musée historique de l'État (Moscou, Fédération de Russie). Département des sources écrites. Stock 3. Book 862 (3). Fol. 297r",
     "Номер": "2"
   },
@@ -1315,7 +1316,7 @@ lines = [
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "1 janvier 1569",
-    "Место пребывания": "Château de Montceaux",
+    "Место пребывания": "Château de Monceaux",
     "Источник": "Lettre à l'ambassadeur de France en Angleterre, seigneur de La Mothe-Fénelon / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 90/1, № 13.",
     "Номер": ""
   },
@@ -1343,7 +1344,7 @@ lines = [
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Fin du juin 1569",
-    "Место пребывания": "Camp de Saint-Mesmin près d’Orleans",
+    "Место пребывания": "Camp de Saint-Mesmin près d'Orleans",
     "Источник": "Lettre au maréchal de Brissac / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/1, № 46.",
     "Номер": ""
   },
@@ -1805,7 +1806,7 @@ lines = [
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "14 juin 1573",
-    "Место пребывания": "Château de Montceaux",
+    "Место пребывания": "Château de Monceaux",
     "Источник": "Lettre à Henri, duc d'Anjou, frère du Roy / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/2, № 38.",
     "Номер": ""
   },

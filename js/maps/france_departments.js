@@ -701,6 +701,13 @@ $(function () {
                 tooltip: { content: "Булонский замок<br>Сhâteau de Boulogne" },
 
             },
+            'Monso': {
+                x: 1048,
+                y: 330,
+
+                tooltip: { content: "Замок Монсо<br>Château de Monceaux" },
+
+            },
             'Lesigny': {
                 x: 1040,
                 y: 327,
