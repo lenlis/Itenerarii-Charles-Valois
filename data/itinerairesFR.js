@@ -329,7 +329,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Première décennie de novembre 1562",
     "Место пребывания": "Camp près de Rouen",
-    "Источник": "Lettre au duc de Montpensier, commissaire royal en Guyane / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/1, № 55.; Publication: Lublinskaya, 1962. P. 195–199.",
+    "Источник": "Lettre au duc de Montpensier, commissaire royal en Guyenne / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/1, № 55.; Publication: Lublinskaya, 1962. P. 195–199.",
     "Номер": "9"
   },
   {
