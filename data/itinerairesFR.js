@@ -1820,7 +1820,7 @@ lines = [
   {
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "29 juin 1573",
-    "Место пребывания": "Château de Boulogne",
+    "Место пребывания": "Сhâteau de Boulogne",
     "Источник": "Lettre à Henri, duc d'Anjou, frère du Roy / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/2, № 39B.",
     "Номер": ""
   },
