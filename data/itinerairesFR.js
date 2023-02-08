@@ -217,7 +217,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Première quinzaine de mai 1562",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Mémoire (mémorandum) aux gouverneurs généraux de Guyenne, seigneur de Burie et seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/1, № 62.; Publication: Lublinskaya, 1962. P. 57–59.",
+    "Источник": "Mémoire (mémorandum) aux lieutenants généraux de Guyenne, seigneur de Burie et seigneur de Monluc / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/1, № 62.; Publication: Lublinskaya, 1962. P. 57–59.",
     "Номер": "10"
   },
   {
@@ -322,7 +322,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "Octobre 1562",
     "Место пребывания": "Camp près de Rouen",
-    "Источник": "Lettre au capitaine de Xaintrailles, губернатору Пор-де-Сент-Мари (Ажене) / Institut d'histoire de Saint-Pétersbourg, Académie des sciences de Russie. Archives scientifiques et historiques. Section de l'Europe occidentale. Manuscrit 338. № 24.",
+    "Источник": "Lettre au capitaine de Xaintrailles, gouverneur de Port-de-Sainte-Marie (Agen) / Institut d'histoire de Saint-Pétersbourg, Académie des sciences de Russie. Archives scientifiques et historiques. Section de l'Europe occidentale. Manuscrit 338. № 24.",
     "Номер": "8"
   },
   {
@@ -547,7 +547,7 @@ lines = [
     "Дата пребывания": "Charles IX",
     "Дата пребывания": "16 janvier 1564",
     "Место пребывания": "Paris, Louvre",
-    "Источник": "Lettre circulaire aux gouverneurs et gouverneurs généraux des provinces d'Angoumois, de Guyenne, de Languedoc et de Provence : seigneur de Sansac , Comte de Lude, seigneur de Burie, Comte de Tende et seigneur d'Escars / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/1, № 68.",
+    "Источник": "Lettre circulaire aux gouverneurs et lieutenants généraux des provinces d'Angoumois, de Guyenne, de Languedoc et de Provence : seigneur de Sansac , Comte de Lude, seigneur de Burie, Comte de Tende et seigneur d'Escars / BNR. Département des manuscrits. Coll. Pierre Dubrovsky. Autographe 21/1, № 68.",
     "Номер": "6"
   },
   {
